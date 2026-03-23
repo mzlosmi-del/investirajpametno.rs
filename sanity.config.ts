@@ -7,6 +7,7 @@ export default defineConfig({
   title: 'Investiraj Pametno',
   projectId: 'rb1q4enl',
   dataset: 'production',
+  basePath: '/studio',
   plugins: [structureTool()],
   schema: {
     types: schemaTypes,
