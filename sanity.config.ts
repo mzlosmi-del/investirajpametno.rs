@@ -1,5 +1,5 @@
 import { defineConfig } from 'sanity'
-import { desk } from 'sanity/desk'
+import { structureTool } from 'sanity/structure'
 import { schemaTypes } from './src/sanity/schemaTypes'
 
 export default defineConfig({
@@ -7,7 +7,7 @@ export default defineConfig({
   title: 'Investiraj Pametno',
   projectId: 'rb1q4enl',
   dataset: 'production',
-  plugins: [desk()],
+  plugins: [structureTool()],
   schema: {
     types: schemaTypes,
   },
