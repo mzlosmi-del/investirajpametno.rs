@@ -19,7 +19,7 @@ Problem? **Prinos je smešan, a inflacija ga pojede.** Štednja čuva pare od ka
 
 ## Nekretnine: opipljive, ali spore i skupe za ulaz
 
-Nekretnine kod nas svi vole — „cigla ne propada". I ima istine u tome: imaš nešto opipljivo, možeš da izdaješ i dobijaš mesečni prihod, a vrednost vremenom obično raste.
+Nekretnine kod nas svi vole — „cigla ne propada". I ima istine u tome: imaš nešto opipljivo, možeš da izdaješ i dobijaš mesečni prihod, a vrednost vremenom obično raste. (Ako te ova opcija zanima ozbiljno, pročitaj detaljan vodič [kako investirati u nekretnine u Srbiji](/blog/kako-investirati-u-nekretnine) — sa računicom prinosa, porezom i greškama.)
 
 Ali budi realan oko mana:
 
