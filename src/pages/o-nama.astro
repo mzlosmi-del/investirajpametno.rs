@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="O nama — Investiraj Pametno"
+  description="Ko stoji iza Investiraj Pametno i zašto pričamo o parama onako kako većina neće. Misija, vrednosti i pristup ličnim finansijama u Srbiji."
+>
+  <header class="page-head">
+    <div class="container narrow">
+      <p class="label">O nama</p>
+      <h1>Niko ti neće reći istinu o parama. Mi hoćemo.</h1>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container narrow prose-body">
+      <p>
+        Hajde odmah da raščistimo jednu stvar: <strong>većina ljudi u Srbiji nikad neće biti
+        finansijski slobodna.</strong> Ne zato što ne mogu, nego zato što niko nikad nije seo
+        sa njima i rekao im istinu — jasno, bez ulepšavanja i bez prodaje magle.
+      </p>
+      <p>
+        Investiraj Pametno postoji upravo zbog toga. Ovde nema „brzog bogaćenja", nema tajnih
+        akcija i nema garantovanih prinosa. Ima samo ono što stvarno radi: zdrava pamet,
+        disciplina i plan koji izdrži i krizu i inflaciju i pad dinara.
+      </p>
+
+      <h2>U šta verujemo</h2>
+      <ul>
+        <li><strong>Istina pre udobnosti.</strong> Radije ćemo ti reći nešto što boli nego nešto što ti prija a ostavlja te na istom mestu.</li>
+        <li><strong>Investiranje nije kockanje.</strong> Ali nije ni magija — to je veština koja se uči, korak po korak.</li>
+        <li><strong>Pare su alat, ne cilj.</strong> Sloboda da biraš kako provodiš svoje vreme — to je cilj.</li>
+        <li><strong>Prilagođeno nama.</strong> Saveti iz Amerike ne rade jedan-na-jedan kod nas. Sve gledamo kroz dinar, evre i kredite kakve stvarno imamo.</li>
+      </ul>
+
+      <h2>Kako ti pomažemo</h2>
+      <p>
+        Kroz tekstove koji ti ne laskaju, kroz jasan plan od <a href="/blog/7-koraka-do-finansijske-slobode">7 koraka</a>
+        i kroz priče iz stvarnog života — bez fensi žargona koji te samo zbunjuje. Cilj je
+        jednostavan: da posle svakog teksta znaš tačno šta da uradiš sledeće.
+      </p>
+
+      <blockquote>
+        Ako tražiš nekoga ko će ti reći da je sve lako i da pare same dolaze — pogrešna adresa.
+        Ako tražiš nekoga ko će ti reći istinu i dati ti plan — dobrodošao.
+      </blockquote>
+
+      <p>Spreman? Onda nemoj da odlažeš.</p>
+      <p><a href="/blog/7-koraka-do-finansijske-slobode" class="btn btn-primary">Kreni od 7 koraka →</a></p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .narrow { width: min(100% - 2.4rem, 760px); }
+  .page-head { background: var(--navy-700); color: var(--text-on-dark); padding-block: clamp(3rem, 6vw, 5rem); }
+  .page-head h1 { color: #fff; font-size: var(--step-4); margin-top: 0.4rem; }
+  .prose-body { font-size: 1.12rem; line-height: 1.75; }
+  .prose-body h2 { font-size: var(--step-2); margin: 2.2rem 0 0.8rem; }
+  .prose-body p { margin-bottom: 1.2rem; }
+  .prose-body ul { margin: 0 0 1.4rem 1.3rem; }
+  .prose-body li { margin-bottom: 0.6rem; }
+  .prose-body a:not(.btn) { color: #0c7a5c; font-weight: 500; }
+  .prose-body strong { color: var(--ink); }
+  .prose-body blockquote {
+    border-left: 4px solid var(--emerald); margin: 1.8rem 0; padding: 0.4rem 0 0.4rem 1.3rem;
+    font-style: italic; color: var(--text-on-light-dim); font-size: 1.25rem;
+  }
+  .btn { text-decoration: none; }
+</style>

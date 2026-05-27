@@ -1,0 +1,54 @@
+---
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container grid">
+    <div class="col brand-col">
+      <div class="brand">Investiraj <span>Pametno</span></div>
+      <p>Pametno upravljanje novcem i investiranje — bez magije i bez kockanja. Tvoj put do finansijske slobode počinje danas.</p>
+    </div>
+    <nav class="col" aria-label="Podnožje — stranice">
+      <h2>Stranice</h2>
+      <a href="/">Početna</a>
+      <a href="/blog">Blog</a>
+      <a href="/o-nama">O nama</a>
+      <a href="/kontakt">Kontakt</a>
+    </nav>
+    <nav class="col" aria-label="Podnožje — pročitaj">
+      <h2>Pročitaj prvo</h2>
+      <a href="/blog/7-koraka-do-finansijske-slobode">7 koraka do slobode</a>
+      <a href="/blog/zasto-je-investiranje-bitno">Zašto je investiranje bitno</a>
+      <a href="/blog/novac-i-budzet">Novac i budžet</a>
+      <a href="/blog/investiranje-nije-kockanje">Investiranje nije kockanje</a>
+    </nav>
+  </div>
+  <div class="container bottom">
+    <span>© {year} Investiraj Pametno</span>
+    <span>Napravljeno sa namerom da te natera na razmišljanje.</span>
+  </div>
+</footer>
+
+<style>
+  .site-footer { background: var(--navy-900); color: var(--text-on-dark-dim); padding-top: var(--space-xl); }
+  .grid {
+    display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: var(--space-l);
+    padding-bottom: var(--space-l);
+  }
+  .brand { font-family: var(--font-display); font-size: 1.25rem; color: #fff; margin-bottom: 0.6rem; }
+  .brand span { color: var(--emerald-on-dark); }
+  .brand-col p { font-size: 0.92rem; max-width: 34ch; line-height: 1.6; }
+  .col h2 {
+    font-family: var(--font-body); font-size: 0.74rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--emerald); margin-bottom: 0.9rem; font-weight: 700;
+  }
+  .col a { display: block; color: var(--text-on-dark-dim); text-decoration: none; padding: 0.3em 0; font-size: 0.92rem; }
+  .col a:hover { color: #fff; }
+  .bottom {
+    display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+    border-top: 1px solid var(--navy-line); padding-block: 1.4rem; font-size: 0.82rem; color: #90a6c2;
+  }
+  @media (max-width: 640px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+    .brand-col { grid-column: 1 / -1; }
+  }
+</style>

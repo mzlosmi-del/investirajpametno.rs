@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const categories = [...new Set(posts.map((p) => p.data.category))].sort();
+---
+<BaseLayout
+  title="Blog — Investiraj Pametno"
+  description="Tekstovi o štednji, investiranju, dugovima i finansijskoj slobodi. Praktično, direktno i prilagođeno životu u Srbiji."
+>
+  <header class="page-head">
+    <div class="container">
+      <p class="label">Blog</p>
+      <h1>Sve o parama — bez ulepšavanja</h1>
+      <p class="lede">
+        Štednja, investiranje, dugovi i navike koje te ili obogate ili upropaste.
+        Biraj temu i kreni da čitaš.
+      </p>
+      {categories.length > 1 && (
+        <div class="cats">
+          {categories.map((c) => <span class="cat">{c}</span>)}
+        </div>
+      )}
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      {posts.length === 0 ? (
+        <p class="empty">Tekstovi uskoro stižu. Vrati se za koji dan.</p>
+      ) : (
+        <div class="grid">
+          {posts.map((p) => (
+            <ArticleCard
+              href={`/blog/${p.id}`}
+              title={p.data.title}
+              description={p.data.description}
+              category={p.data.category}
+              pubDate={p.data.pubDate}
+              headingLevel={2}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-head { background: var(--navy-700); color: var(--text-on-dark); padding-block: clamp(3rem, 6vw, 5rem); }
+  .page-head h1 { color: #fff; font-size: var(--step-4); margin: 0.4rem 0 0.8rem; }
+  .lede { color: var(--text-on-dark-dim); font-size: var(--step-1); max-width: 54ch; }
+  .cats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.4rem; }
+  .cat {
+    font-size: 0.8rem; font-weight: 600; padding: 0.35em 0.9em; border-radius: 999px;
+    border: 1px solid var(--navy-line); color: var(--text-on-dark-dim);
+  }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+  .empty { color: var(--text-on-light-dim); font-size: var(--step-1); }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+</style>

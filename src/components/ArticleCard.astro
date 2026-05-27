@@ -1,0 +1,48 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  description: string;
+  category: string;
+  pubDate: Date;
+  /** heading level for the card title, to keep document outline valid */
+  headingLevel?: 2 | 3;
+}
+const { href, title, description, category, pubDate, headingLevel = 3 } = Astro.props;
+const Heading = `h${headingLevel}` as const;
+const dateStr = pubDate.toLocaleDateString('sr-RS', {
+  year: 'numeric', month: 'long', day: 'numeric',
+});
+const isoDate = pubDate.toISOString();
+---
+<article class="card">
+  <a href={href} class="link">
+    <div class="meta">
+      <span class="cat">{category}</span>
+      <time datetime={isoDate}>{dateStr}</time>
+    </div>
+    <Heading>{title}</Heading>
+    <p>{description}</p>
+    <span class="more">Pročitaj →</span>
+  </a>
+</article>
+
+<style>
+  .card {
+    background: var(--paper); border: 1px solid var(--paper-line);
+    border-radius: var(--radius); overflow: hidden;
+    transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease), border-color 0.25s var(--ease);
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); border-color: #d3def0; }
+  .link { display: flex; flex-direction: column; gap: 0.55rem; padding: 1.4rem; height: 100%; text-decoration: none; color: inherit; }
+  .meta { display: flex; align-items: center; gap: 0.7rem; font-size: 0.76rem; }
+  .cat {
+    text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700;
+    color: var(--emerald-text);
+  }
+  .meta time { color: var(--text-on-light-dim); }
+  h2, h3 { font-size: 1.3rem; line-height: 1.18; }
+  .link p { color: var(--text-on-light-dim); font-size: 0.95rem; line-height: 1.55; flex: 1; }
+  .more { color: var(--ink); font-weight: 600; font-size: 0.92rem; }
+  .card:hover .more { color: var(--emerald); }
+</style>

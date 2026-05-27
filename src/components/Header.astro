@@ -1,0 +1,74 @@
+---
+const links = [
+  { href: '/', label: 'Početna' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/o-nama', label: 'O nama' },
+  { href: '/kontakt', label: 'Kontakt' },
+];
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+<header class="site-header">
+  <div class="container bar">
+    <a href="/" class="brand" aria-label="Investiraj Pametno — početna">
+      Investiraj <span>Pametno</span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+    <label for="nav-toggle" class="burger" aria-label="Otvori meni">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="nav" aria-label="Glavna navigacija">
+      {links.map((l) => {
+        const active = l.href === '/' ? path === '/' : path.startsWith(l.href);
+        return (
+          <a href={l.href} class:list={['nav-link', { active }]} aria-current={active ? 'page' : undefined}>
+            {l.label}
+          </a>
+        );
+      })}
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(12, 32, 56, 0.88);
+    backdrop-filter: saturate(140%) blur(10px);
+    border-bottom: 1px solid var(--navy-line);
+  }
+  .bar { display: flex; align-items: center; justify-content: space-between; height: 68px; }
+  .brand {
+    font-family: var(--font-display); font-weight: 600; font-size: 1.3rem;
+    color: #fff; text-decoration: none; letter-spacing: -0.01em;
+  }
+  .brand span { color: var(--emerald-on-dark); }
+  .nav { display: flex; gap: 0.4rem; }
+  .nav-link {
+    color: var(--text-on-dark-dim); text-decoration: none; font-weight: 500;
+    font-size: 0.97rem; padding: 0.5em 0.85em; border-radius: 8px;
+    transition: color 0.2s var(--ease), background 0.2s var(--ease);
+  }
+  .nav-link:hover { color: #fff; background: rgba(255, 255, 255, 0.06); }
+  .nav-link.active { color: var(--emerald-bright); }
+
+  .nav-toggle, .burger { display: none; }
+  .burger { flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+  .burger span { width: 24px; height: 2px; background: #fff; border-radius: 2px; transition: 0.25s var(--ease); }
+
+  @media (max-width: 720px) {
+    .burger { display: flex; }
+    .nav {
+      position: absolute; inset: 68px 0 auto 0; flex-direction: column; gap: 0;
+      background: var(--navy-800); border-bottom: 1px solid var(--navy-line);
+      padding: 0.5rem 1.2rem 1rem;
+      max-height: 0; overflow: hidden; transition: max-height 0.3s var(--ease);
+    }
+    .nav-link { padding: 0.8em 0.5em; border-radius: 0; }
+    .nav-toggle:checked ~ .nav { max-height: 320px; }
+    .nav-toggle:checked ~ .burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-toggle:checked ~ .burger span:nth-child(2) { opacity: 0; }
+    .nav-toggle:checked ~ .burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  }
+</style>

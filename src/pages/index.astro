@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import BabySteps from '../components/BabySteps.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const latest = posts.slice(0, 3);
+---
+<BaseLayout
+  title="Investiraj Pametno — lične finansije i investiranje bez ulepšavanja"
+  description="Naučи kako da preuzmeš kontrolu nad svojim novcem, otplatiš dugove i počneš da investiraš. Praktični vodiči za lične finansije u Srbiji — bez magije i bez kockanja."
+>
+  <Hero />
+  <BabySteps />
+
+  {latest.length > 0 && (
+    <section class="section latest">
+      <div class="container">
+        <header class="head">
+          <div>
+            <p class="label">Sveže sa bloga</p>
+            <h2>Najnoviji tekstovi</h2>
+          </div>
+          <a href="/blog" class="all">Svi tekstovi →</a>
+        </header>
+        <div class="grid">
+          {latest.map((p) => (
+            <ArticleCard
+              href={`/blog/${p.id}`}
+              title={p.data.title}
+              description={p.data.description}
+              category={p.data.category}
+              pubDate={p.data.pubDate}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="about-teaser">
+    <div class="container inner">
+      <p class="label" style="color: var(--emerald-bright)">Zašto baš ovde</p>
+      <h2>Ne prodajem ti snove. Prodajem ti disciplinu.</h2>
+      <p>
+        Nema „obogati se preko noći". Nema tajnih akcija koje će ti promeniti život za mesec dana.
+        Postoji samo plan, strpljenje i navika. Ako tražiš nekoga ko će ti reći istinu o parama —
+        na pravom si mestu.
+      </p>
+      <a href="/o-nama" class="btn btn-primary">Upoznaj priču →</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .head { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: var(--space-l); }
+  .head h2 { font-size: var(--step-3); margin-top: 0.3rem; }
+  .all { color: var(--ink); font-weight: 600; text-decoration: none; white-space: nowrap; }
+  .all:hover { color: var(--emerald); }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+
+  .about-teaser { background: var(--navy-700); color: var(--text-on-dark); padding-block: var(--space-2xl); }
+  .about-teaser .inner { max-width: 60ch; }
+  .about-teaser h2 { color: #fff; font-size: var(--step-3); margin: 0.5rem 0 1rem; }
+  .about-teaser p { color: var(--text-on-dark-dim); font-size: var(--step-1); line-height: 1.55; margin-bottom: 1.6rem; }
+
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+</style>

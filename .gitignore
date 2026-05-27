@@ -1,0 +1,20 @@
+# build output
+dist/
+# dependencies
+node_modules/
+# astro
+.astro/
+# environment
+.env
+.env.production
+# macOS / editors
+.DS_Store
+# brainstorm companion artifacts
+.superpowers/
+# logs
+npm-debug.log*
+# lighthouse temp / reports
+.lhtmp/
+lh-*.json
+# separate Instagram auto-poster project (its own thing, not part of the website)
+ig-agent/

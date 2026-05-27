@@ -1,0 +1,72 @@
+---
+import { babySteps } from '../data/babySteps';
+
+interface Props {
+  /** show the section heading + intro (homepage) or just the list */
+  withHeading?: boolean;
+}
+const { withHeading = true } = Astro.props;
+---
+<section class="steps section">
+  <div class="container">
+    {withHeading && (
+      <header class="head">
+        <p class="label">Plan koji radi</p>
+        <h2>7 koraka do finansijske slobode</h2>
+        <p class="intro">
+          Bez čarobnih formula. Ovih sedam koraka radiš <strong>redom</strong> — jedan po jedan,
+          ne preskačeš. Dokazana logika prilagođena našoj realnosti: dinar, evri i krediti
+          kakve stvarno imamo.
+        </p>
+      </header>
+    )}
+
+    <ol class="list">
+      {babySteps.map((s) => (
+        <li class:list={['step', { gold: s.highlight }]}>
+          <span class="num" aria-hidden="true">{s.n}</span>
+          <div class="body">
+            <h3>{s.title}</h3>
+            <p>{s.text}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>
+
+<style>
+  .steps { background: var(--paper-soft); }
+  .head { max-width: 60ch; margin-bottom: var(--space-l); }
+  .head h2 { font-size: var(--step-3); margin: 0.4rem 0 0.8rem; }
+  .intro { color: var(--text-on-light-dim); font-size: var(--step-1); line-height: 1.55; }
+
+  .list {
+    list-style: none; padding: 0; margin: 0;
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;
+    counter-reset: step;
+  }
+  .step {
+    display: flex; gap: 1rem; align-items: flex-start;
+    background: var(--paper); border: 1px solid var(--paper-line);
+    border-left: 4px solid var(--emerald);
+    border-radius: var(--radius-sm); padding: 1.1rem 1.3rem;
+    box-shadow: var(--shadow-soft);
+    transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+  }
+  .step:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); }
+  .step.gold { border-left-color: var(--gold); background: linear-gradient(180deg, #fffaf0, #fff); }
+  .num {
+    flex: none; width: 2.4rem; height: 2.4rem; border-radius: 8px;
+    display: grid; place-items: center;
+    font-family: var(--font-display); font-weight: 600; font-size: 1.25rem;
+    color: var(--emerald-deep); background: var(--emerald);
+  }
+  .step.gold .num { background: var(--gold); color: #3a2c00; }
+  .body h3 { font-size: 1.12rem; margin-bottom: 0.25rem; line-height: 1.2; }
+  .body p { color: var(--text-on-light-dim); font-size: 0.95rem; line-height: 1.5; }
+
+  @media (max-width: 720px) {
+    .list { grid-template-columns: 1fr; }
+  }
+</style>
