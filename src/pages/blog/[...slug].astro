@@ -1,6 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content';
-import { Image } from 'astro:assets';
+import { Image, getImage } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await render(post);
+const { Content, headings, remarkPluginFrontmatter } = await render(post);
 const d = post.data;
 
 const dateStr = d.pubDate.toLocaleDateString('sr-RS', {
@@ -20,17 +20,38 @@ const dateStr = d.pubDate.toLocaleDateString('sr-RS', {
 });
 const url = new URL(`/blog/${post.id}`, Astro.site).href;
 
+// Compute an absolute URL for the hero image so og:image and Article.image resolve fully.
+let heroUrl: string | undefined;
+if (d.heroImage) {
+  const optimized = await getImage({ src: d.heroImage, width: 1200, format: 'jpg' });
+  heroUrl = new URL(optimized.src, Astro.site).href;
+}
+
+// Rough word count from raw markdown body (good enough for schema).
+const wordCount = (post.body ?? '').split(/\s+/).filter(Boolean).length;
+
 const articleSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Article',
+  '@type': 'BlogPosting',
   headline: d.title,
   description: d.description,
+  ...(heroUrl ? { image: [heroUrl] } : {}),
   datePublished: d.pubDate.toISOString(),
   dateModified: (d.updatedDate ?? d.pubDate).toISOString(),
-  author: { '@type': 'Organization', name: 'Investiraj Pametno' },
-  publisher: { '@type': 'Organization', name: 'Investiraj Pametno' },
-  mainEntityOfPage: url,
-  inLanguage: 'sr-RS',
+  author: { '@type': 'Organization', name: 'Investiraj Pametno', url: Astro.site?.href },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Investiraj Pametno',
+    logo: {
+      '@type': 'ImageObject',
+      url: new URL('/og-default.png', Astro.site).href,
+    },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  inLanguage: 'sr-Latn-RS',
+  wordCount,
+  articleSection: d.category,
+  keywords: d.tags?.join(', '),
 };
 
 const breadcrumb = {
@@ -56,12 +77,40 @@ const faqSchema = d.faq?.length
     }
   : null;
 
-const schemas = [articleSchema, breadcrumb, ...(faqSchema ? [faqSchema] : [])];
+// Optional HowTo schema — emitted only when the post frontmatter carries one via
+// remark frontmatter override. For now we look for `howTo` on the post data via
+// remarkPluginFrontmatter (forward-compatible) or fall back to post.data.howTo.
+const howToData = (remarkPluginFrontmatter as Record<string, unknown> | undefined)?.howTo
+  ?? (d as unknown as { howTo?: { name: string; totalTime?: string; tool?: string; steps: { name: string; text: string }[] } }).howTo;
+const howToSchema = howToData
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      name: howToData.name,
+      ...(howToData.totalTime ? { totalTime: howToData.totalTime } : {}),
+      ...(howToData.tool ? { tool: [{ '@type': 'HowToTool', name: howToData.tool }] } : {}),
+      supply: [],
+      step: howToData.steps.map((s, i) => ({
+        '@type': 'HowToStep',
+        position: i + 1,
+        name: s.name,
+        text: s.text,
+      })),
+    }
+  : null;
+
+const schemas = [
+  articleSchema,
+  breadcrumb,
+  ...(faqSchema ? [faqSchema] : []),
+  ...(howToSchema ? [howToSchema] : []),
+];
 ---
 <BaseLayout
-  title={`${d.title} — Investiraj Pametno`}
+  title={`${d.seoTitle ?? d.title} — Investiraj Pametno`}
   description={d.description}
   type="article"
+  image={heroUrl}
   publishedTime={d.pubDate}
   modifiedTime={d.updatedDate ?? d.pubDate}
   jsonLd={schemas}

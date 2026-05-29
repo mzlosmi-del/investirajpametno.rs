@@ -5,6 +5,8 @@ const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: ({ image }) => z.object({
     title: z.string(),
+    /** optional shorter title for the browser tab + SERP listing (defaults to title) */
+    seoTitle: z.string().optional(),
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
@@ -22,6 +24,15 @@ const blog = defineCollection({
     /** optional FAQ — rendered as an accordion + emitted as FAQPage JSON-LD */
     faq: z
       .array(z.object({ q: z.string(), a: z.string() }))
+      .optional(),
+    /** optional HowTo — emitted as HowTo JSON-LD for rich results */
+    howTo: z
+      .object({
+        name: z.string(),
+        totalTime: z.string().optional(),
+        tool: z.string().optional(),
+        steps: z.array(z.object({ name: z.string(), text: z.string() })),
+      })
       .optional(),
   }),
 });

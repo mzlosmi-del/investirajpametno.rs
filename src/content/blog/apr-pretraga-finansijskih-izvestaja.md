@@ -36,6 +36,8 @@ Ne moraš da budeš računovođa. Za početak, gledaj nekoliko stvari:
 
 Uđeš na sajt APR-a, nađeš sekciju sa finansijskim izveštajima, ukucaš ime ili matični broj firme — i čitaš. Jednostavno kao pretraga na Guglu.
 
+Slično kao što kod nekretnina koristiš [eKatastar za proveru vlasnika i hipoteke](/blog/ekatastar-provera-vlasnika-nekretnine) — i ovde država već ima sve podatke, samo treba znati gde da gledaš.
+
 ## Suština
 
 Informacija koja te može spasti od loše investicije ili lošeg posla stoji ti besplatno na dohvat ruke. Ljudi gube hiljade evra jer su lenji da provere ono što je javno i besplatno.

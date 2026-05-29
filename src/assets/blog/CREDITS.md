@@ -10,6 +10,8 @@ Attribution is provided here as good practice.
 | `nekretnine-hero.jpg` | photo-1560518883-ce09059eeffa | Model house + keys (real estate / buying) |
 | `nekretnine-stan.jpg` | photo-1545324418-cc1a3fa10c00 | Modern residential apartment building |
 | `nekretnine-zgrada.jpg` | photo-1460317442991-0ec209397118 | Apartment building with balconies |
+| `ekatastar-hero.jpg` | dJJDESVo4tA — Daniela Legotta (@comodinodimarmo) | Tall residential brutalist building, Belgrade |
+| `ekatastar-pretraga.svg` | Original — Investiraj Pametno | Branded diagram of the eKatastar public search flow |
 
 Used in: `src/content/blog/kako-investirati-u-nekretnine.md`
 
