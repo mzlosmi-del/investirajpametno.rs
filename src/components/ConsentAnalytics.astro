@@ -1,0 +1,112 @@
+---
+// Cookie consent banner + lazy-loaded GA4.
+// - Denies analytics by default; loads GA only after the user clicks "Prihvatam".
+// - Choice persists in localStorage ("ip-consent" = "yes" | "no").
+// - No JS runs for repeat visitors who already chose, so Lighthouse stays clean.
+
+interface Props {
+  measurementId: string;
+}
+const { measurementId } = Astro.props;
+---
+<div id="ip-consent" class="consent" hidden role="dialog" aria-labelledby="ip-consent-title">
+  <div class="consent-inner">
+    <div class="consent-text">
+      <strong id="ip-consent-title">Kolačići — ukratko</strong>
+      <p>
+        Koristimo Google Analytics da vidimo koji tekstovi vrede,
+        a koje da bacimo. Ništa lično, ništa za reklame. Biraš ti.
+        <a href="/privatnost">Više info →</a>
+      </p>
+    </div>
+    <div class="consent-buttons">
+      <button type="button" class="btn btn-ghost-light" data-consent="no">Odbij</button>
+      <button type="button" class="btn btn-primary" data-consent="yes">Prihvatam</button>
+    </div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ measurementId }}>
+  (function () {
+    const KEY = 'ip-consent';
+    const banner = document.getElementById('ip-consent');
+    if (!banner) return;
+
+    function loadGA() {
+      // gtag.js — async, non-blocking
+      const s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { window.dataLayer.push(arguments); }
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', measurementId, { anonymize_ip: true });
+    }
+
+    function hideBanner() {
+      banner.hidden = true;
+    }
+
+    const stored = (() => {
+      try { return localStorage.getItem(KEY); } catch { return null; }
+    })();
+
+    if (stored === 'yes') {
+      loadGA();
+    } else if (stored === 'no') {
+      // nothing — choice respected, no banner
+    } else {
+      // No decision yet — show banner
+      banner.hidden = false;
+    }
+
+    banner.addEventListener('click', (e) => {
+      const target = e.target;
+      if (!(target instanceof HTMLElement)) return;
+      const btn = target.closest('[data-consent]');
+      if (!btn) return;
+      const choice = btn.getAttribute('data-consent');
+      try { localStorage.setItem(KEY, choice); } catch {}
+      hideBanner();
+      if (choice === 'yes') loadGA();
+    });
+  })();
+</script>
+
+<style>
+  .consent {
+    position: fixed; left: 1rem; right: 1rem; bottom: 1rem; z-index: 100;
+    background: var(--navy-700); color: var(--text-on-dark);
+    border: 1px solid var(--navy-line); border-radius: var(--radius);
+    box-shadow: var(--shadow-lift); padding: 1.1rem 1.2rem;
+    max-width: 680px; margin-inline: auto;
+    animation: consent-rise 0.35s var(--ease) both;
+  }
+  @keyframes consent-rise { from { transform: translateY(20px); opacity: 0; } }
+  .consent-inner {
+    display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap;
+  }
+  .consent-text { flex: 1; min-width: 240px; }
+  .consent-text strong {
+    display: block; font-weight: 700; color: #fff; margin-bottom: 0.2rem; font-size: 1rem;
+  }
+  .consent-text p {
+    margin: 0; color: var(--text-on-dark-dim); font-size: 0.92rem; line-height: 1.5;
+  }
+  .consent-text a { color: var(--emerald-on-dark); font-weight: 600; white-space: nowrap; }
+  .consent-buttons { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .consent-buttons .btn { font-size: 0.92rem; padding: 0.55em 1em; }
+  .btn-ghost-light {
+    background: transparent; color: var(--text-on-dark);
+    border: 1px solid var(--navy-line); cursor: pointer;
+    font-family: var(--font-body); font-weight: 600;
+  }
+  .btn-ghost-light:hover { border-color: var(--emerald-on-dark); color: #fff; }
+
+  @media (max-width: 520px) {
+    .consent-buttons { width: 100%; }
+    .consent-buttons .btn { flex: 1; }
+  }
+</style>

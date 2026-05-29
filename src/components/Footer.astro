@@ -23,7 +23,7 @@ const year = new Date().getFullYear();
     </nav>
   </div>
   <div class="container bottom">
-    <span>© {year} Investiraj Pametno</span>
+    <span>© {year} Investiraj Pametno · <a href="/privatnost" class="legal">Privatnost</a></span>
     <span>Napravljeno sa namerom da te natera na razmišljanje.</span>
   </div>
 </footer>
@@ -47,6 +47,12 @@ const year = new Date().getFullYear();
     display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;
     border-top: 1px solid var(--navy-line); padding-block: 1.4rem; font-size: 0.82rem; color: #90a6c2;
   }
+  .legal {
+    display: inline-flex; align-items: center; min-height: 24px;
+    color: inherit; text-decoration: underline; text-decoration-thickness: 1px;
+    text-underline-offset: 2px; padding: 0 2px;
+  }
+  .legal:hover { color: #fff; }
   @media (max-width: 640px) {
     .grid { grid-template-columns: 1fr 1fr; }
     .brand-col { grid-column: 1 / -1; }

@@ -1,0 +1,144 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const lastUpdated = '29. maj 2026.';
+---
+<BaseLayout
+  title="Privatnost i kolačići — Investiraj Pametno"
+  description="Šta beležimo o tvojoj poseti Investiraj Pametno, zašto, i kako da povučeš pristanak u svakom trenutku."
+  noindex={false}
+>
+  <header class="page-head">
+    <div class="container narrow">
+      <p class="label">Privatnost</p>
+      <h1>Privatnost i kolačići — bez ulepšavanja</h1>
+      <p class="lede">
+        Kratko, jasno i bez pravnog blebetanja. Evo šta beležimo, zašto i kako da
+        kažeš „ne, hvala" u bilo kom trenutku.
+      </p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container narrow prose-body">
+      <p><em>Poslednje ažurirano: {lastUpdated}</em></p>
+
+      <h2>Ko smo i kako da nas kontaktiraš</h2>
+      <p>
+        Sajt <strong>Investiraj Pametno</strong> (investirajpametno.rs) je obrazovni
+        blog o ličnim finansijama i investiranju. Za sva pitanja vezana za privatnost
+        ili tvoje podatke, piši na
+        <a href="mailto:kontakt@investirajpametno.rs">kontakt@investirajpametno.rs</a>.
+      </p>
+
+      <h2>Šta beležimo (i šta NE)</h2>
+      <p>
+        Ako klikneš <strong>„Prihvatam"</strong> na traci za kolačiće, koristimo
+        <strong>Google Analytics 4</strong> da bismo razumeli šta na sajtu radi, a šta ne.
+        Konkretno, GA beleži:
+      </p>
+      <ul>
+        <li>koje stranice si posetio i koliko si se zadržao,</li>
+        <li>odakle si stigao (Google pretraga, direktan link, društvene mreže),</li>
+        <li>na kakvom uređaju si (mobilni / desktop, grub model pretraživača),</li>
+        <li>tvoju približnu lokaciju na nivou države/grada,</li>
+        <li>tvoju <strong>anonimizovanu IP adresu</strong> (poslednji oktet maskiran).</li>
+      </ul>
+      <p>
+        Ono što <strong>ne radimo</strong>:
+      </p>
+      <ul>
+        <li>ne prodajemo tvoje podatke,</li>
+        <li>ne koristimo ih za reklame,</li>
+        <li>ne pokušavamo da te identifikujemo lično,</li>
+        <li>ne delimo podatke ni sa kim osim sa Google-om kao tehničkim provajderom.</li>
+      </ul>
+
+      <h2>Ako odbiješ kolačiće</h2>
+      <p>
+        Ako klikneš <strong>„Odbij"</strong>, Google Analytics se uopšte ne učitava.
+        Nikakvi kolačići se ne postavljaju, ništa se o tebi ne beleži. Pamtimo
+        samo tvoju odluku — i to lokalno u tvom pretraživaču, ne na našem serveru.
+      </p>
+
+      <h2>Kako da promeniš odluku kasnije</h2>
+      <p>
+        U bilo kom trenutku možeš da:
+      </p>
+      <ul>
+        <li>
+          obrišeš podatke sajta u svom pretraživaču (Settings → Privacy → Clear data
+          za ovaj sajt) — sledeći put će ti se ponovo pojaviti traka za pristanak;
+        </li>
+        <li>
+          klikneš dole na dugme <em>„Promeni odluku o kolačićima"</em> — odmah resetuje
+          tvoju prethodnu odluku.
+        </li>
+      </ul>
+      <p>
+        <button id="ip-reset-consent" class="btn btn-primary" type="button">
+          Promeni odluku o kolačićima
+        </button>
+      </p>
+
+      <h2>Pravni okvir</h2>
+      <p>
+        Obrada podataka je u skladu sa srpskim
+        <strong>Zakonom o zaštiti podataka o ličnosti</strong>, koji je usklađen
+        sa evropskom GDPR regulativom. Pravni osnov za obradu je
+        <strong>tvoj pristanak</strong> (koji daješ klikom na „Prihvatam"). Pristanak
+        povlačiš jednim klikom, bez ikakvog obrazloženja.
+      </p>
+      <p>
+        Tvoji podaci se prenose Google-u (Google Ireland Limited) i mogu se obrađivati
+        na njihovim serverima u Evropskoj Uniji ili van nje. Google kao obrađivač
+        podataka primenjuje svoje
+        <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">
+          uslove privatnosti</a>.
+      </p>
+
+      <h2>Tvoja prava</h2>
+      <p>
+        Po zakonu imaš pravo da:
+      </p>
+      <ul>
+        <li>tražiš pristup podacima koje držimo o tebi (kod nas — gotovo ništa),</li>
+        <li>tražiš njihovo brisanje ili ispravku,</li>
+        <li>uložiš prigovor obradi,</li>
+        <li>podneseš pritužbu Povereniku za informacije od javnog značaja i zaštitu
+            podataka o ličnosti Republike Srbije.</li>
+      </ul>
+
+      <h2>Promene ove politike</h2>
+      <p>
+        Ako promenimo nešto bitno, ažuriraćemo datum na vrhu strane i, ako je promena
+        materijalna, ponovo ti pokazati traku za pristanak.
+      </p>
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      const btn = document.getElementById('ip-reset-consent');
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        try { localStorage.removeItem('ip-consent'); } catch {}
+        location.reload();
+      });
+    })();
+  </script>
+</BaseLayout>
+
+<style>
+  .narrow { width: min(100% - 2.4rem, 760px); }
+  .page-head { background: var(--navy-700); color: var(--text-on-dark); padding-block: clamp(3rem, 6vw, 5rem); }
+  .page-head h1 { color: #fff; font-size: var(--step-4); margin: 0.4rem 0 0.7rem; }
+  .lede { color: var(--text-on-dark-dim); font-size: var(--step-1); max-width: 56ch; }
+
+  .prose-body { font-size: 1.08rem; line-height: 1.75; }
+  .prose-body h2 { font-size: var(--step-2); margin: 2.2rem 0 0.8rem; }
+  .prose-body p { margin-bottom: 1.1rem; }
+  .prose-body ul { margin: 0 0 1.2rem 1.3rem; }
+  .prose-body li { margin-bottom: 0.45rem; }
+  .prose-body a:not(.btn) { color: #0a7d5c; font-weight: 500; }
+  .prose-body strong { color: var(--ink); }
+</style>
