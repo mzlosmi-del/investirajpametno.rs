@@ -1,7 +1,7 @@
 ---
 title: "eKatastar: kako za 2 minuta proveriš ko je pravi vlasnik stana (i ima li hipoteku)"
 seoTitle: "eKatastar: provera vlasnika nekretnine"
-description: "Pre kapare za stan ili kupovine zemlje proveri ko je vlasnik nekretnine i da li je pod hipotekom. eKatastar to radi besplatno, online, bez registracije."
+description: "Pre nego što daš kaparu za stan ili kupiš zemlju, proveri vlasnika nekretnine i da li postoji hipoteka — preko eKatastra, besplatno i bez registracije."
 pubDate: 2026-05-29
 updatedDate: 2026-05-29
 category: "Alati"
@@ -72,9 +72,9 @@ Najčešće prevare i zamke koje eKatastar odmah razotkriva:
 Kada nađeš nekretninu, dobiješ dokument koji se zove **list nepokretnosti**. Ne moraš da budeš pravnik da bi razumeo ono što ti treba. Fokusiraj se na sledeće:
 
 - **Vlasnik (nosilac prava).** Da li se ime poklapa sa imenom osobe koja ti prodaje, izdaje ili traži novac. Ako ne — stoj.
-- **Udeo (oblik svojine).** Ima li nekretnina jednog ili više vlasnika. Pišu i procentualni udeli. Sa više vlasnika treba pristanak svih.
+- **Udeo (oblik svojine).** Ima li nekretnina jednog ili više vlasnika. Naznačeni su i procentualni udeli. Sa više vlasnika treba pristanak svih.
 - **Tereti, hipoteke i zabeležbe.** Sekcija koja ti govori da li je nekretnina opterećena. Ako vidiš upis hipoteke ili spora — pre svake uplate vodi advokata.
-- **Površina i vrsta objekta.** Da li se opisom slaže sa onim što ti je pokazano. Stan od 65 m² u oglasu, a u katastru piše 48 m² — postavi pitanje.
+- **Površina i vrsta objekta.** Da li se opis u katastru slaže sa onim što ti je pokazano. Stan od 65 m² u oglasu, a u katastru piše 48 m² — postavi pitanje.
 
 ## Kako da koristiš (korak po korak)
 
@@ -97,6 +97,6 @@ Pravilo je jednostavno: **javni pristup za screening, overen prepis pre potpisa.
 
 Hiljade ljudi godišnje izgube ozbiljan novac zato što su preskočili proveru koja je besplatna, brza i dostupna svakom čoveku sa telefonom. Ovo je tačka u kojoj se vidi razlika između onog ko zna [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno) i onog ko prati šta priča komšija.
 
-Pre nego što daš kaparu — proveri vlasnika. Pre nego što potpišeš ugovor o najmu — proveri vlasnika. Pre nego što kupiš zemljište — proveri tereti i hipoteke.
+Pre nego što daš kaparu — proveri vlasnika. Pre nego što potpišeš ugovor o najmu — proveri vlasnika. Pre nego što kupiš zemljište — proveri terete i hipoteke.
 
 eKatastar je upravo za to. Ne koristiti ga je luksuz koji ne možeš sebi da priuštiš.
