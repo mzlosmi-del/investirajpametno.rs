@@ -24,8 +24,12 @@ Attribution is provided here as good practice.
 | `fondovi-dijagram.svg` | Original — Investiraj Pametno | Branded diagram: how annual fees erode returns over time |
 | `rezerva-hero.jpg` | Original — Investiraj Pametno | Branded hero: emergency fund / shield (rasterized SVG) |
 | `rezerva-dijagram.svg` | Original — Investiraj Pametno | Branded diagram: emergency fund in two phases |
+| `diversifikacija-hero.jpg` | Original — Investiraj Pametno | Branded hero: diversification, many baskets (rasterized SVG) |
+| `diversifikacija-dijagram.svg` | Original — Investiraj Pametno | Branded diagram: one basket vs many (ETF) |
+| `akcije-nekretnine-stednja-hero.jpg` | Original — Investiraj Pametno | Branded hero: stocks vs real estate vs savings (rasterized SVG) |
+| `akcije-nekretnine-stednja-dijagram.svg` | Original — Investiraj Pametno | Branded diagram comparing savings, stocks and real estate |
 
-Used in: `src/content/blog/kako-investirati-u-nekretnine.md`, `ulaganje-novca-u-akcije.md`, `novac-i-budzet.md`, `gde-uloziti-1000-evra.md`, `zasto-ne-investirati-u-fondove.md`, `hitna-rezerva-fond-za-crne-dane.md`
+Used in: `kako-investirati-u-nekretnine.md`, `ulaganje-novca-u-akcije.md`, `novac-i-budzet.md`, `gde-uloziti-1000-evra.md`, `zasto-ne-investirati-u-fondove.md`, `hitna-rezerva-fond-za-crne-dane.md`, `diversifikacija-portfolija.md`, `akcije-nekretnine-ili-stednja.md`
 
 Note: images are downloaded and served locally (optimized via Astro `astro:assets`),
 not hot-linked, to keep performance high and avoid broken external links.
