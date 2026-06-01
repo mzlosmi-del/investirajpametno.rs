@@ -15,7 +15,8 @@ const { measurementId } = Astro.props;
       <strong id="ip-consent-title">Kolačići — ukratko</strong>
       <p>
         Koristimo Google Analytics da vidimo koji tekstovi vrede,
-        a koje da bacimo. Ništa lično, ništa za reklame. Biraš ti.
+        a koje da bacimo, i Mailchimp za prijavu na newsletter.
+        Ništa lično, ništa za reklame. Biraš ti.
         <a href="/privatnost">Više info →</a>
       </p>
     </div>
@@ -45,6 +46,23 @@ const { measurementId } = Astro.props;
       gtag('config', measurementId, { anonymize_ip: true });
     }
 
+    function loadMailchimp() {
+      // Mailchimp "connected site" — powers signup forms + tracking.
+      // Loaded only after consent, same as GA. Guard against double-injection.
+      if (document.getElementById('mcjs')) return;
+      const s = document.createElement('script');
+      s.id = 'mcjs';
+      s.async = true;
+      s.src = 'https://chimpstatic.com/mcjs-connected/js/users/d5fb26210bdec9b98a80f6c1c/48b00e5417f7ea6ef5f8a101d.js';
+      const first = document.getElementsByTagName('script')[0];
+      first.parentNode.insertBefore(s, first);
+    }
+
+    function loadAll() {
+      loadGA();
+      loadMailchimp();
+    }
+
     function hideBanner() {
       banner.hidden = true;
     }
@@ -54,7 +72,7 @@ const { measurementId } = Astro.props;
     })();
 
     if (stored === 'yes') {
-      loadGA();
+      loadAll();
     } else if (stored === 'no') {
       // nothing — choice respected, no banner
     } else {
@@ -70,7 +88,7 @@ const { measurementId } = Astro.props;
       const choice = btn.getAttribute('data-consent');
       try { localStorage.setItem(KEY, choice); } catch {}
       hideBanner();
-      if (choice === 'yes') loadGA();
+      if (choice === 'yes') loadAll();
     });
   })();
 </script>
