@@ -12,8 +12,5 @@ Attribution is provided here as good practice.
 | `nekretnine-zgrada.jpg` | photo-1460317442991-0ec209397118 | Apartment building with balconies |
 | `ekatastar-hero.jpg` | dJJDESVo4tA — Daniela Legotta (@comodinodimarmo) | Tall residential brutalist building, Belgrade |
 | `ekatastar-pretraga.svg` | Original — Investiraj Pametno | Branded diagram of the eKatastar public search flow |
-
-Used in: `src/content/blog/kako-investirati-u-nekretnine.md`
-
-Note: images are downloaded and served locally (optimized via Astro `astro:assets`),
-not hot-linked, to keep performance high and avoid broken external links.
+| `apr-hero.jpg` | Original — Investiraj Pametno | Branded illustration: APR financial-report search (rasterized SVG) |
+| `apr-pretraga.svg` | Original — Investiraj Pametno | Branded diagram of the APR financial-report

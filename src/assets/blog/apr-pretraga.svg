@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="APR pretraga — tok od naziva firme do finansijskog izveštaja">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c2444"/>
+      <stop offset="100%" stop-color="#081a2e"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#e8b71a"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="470" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#143058" stroke-width="1" opacity="0.45">
+    <path d="M0 95 H800"/><path d="M0 235 H800"/><path d="M0 375 H800"/>
+  </g>
+
+  <!-- Title -->
+  <text x="40" y="52" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">
+    APR pretraga — od naziva firme do izveštaja
+  </text>
+  <text x="40" y="74" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">
+    fin.apr.gov.rs/JavnaPretraga · besplatno · bez registracije
+  </text>
+
+  <!-- Step 1 box -->
+  <g>
+    <rect x="40" y="120" width="210" height="250" rx="14" fill="#0e2a4c" stroke="#1db58a" stroke-width="1.5"/>
+    <circle cx="74" cy="158" r="18" fill="#1db58a"/>
+    <text x="74" y="164" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#081a2e">1</text>
+    <text x="104" y="164" font-family="Inter, sans-serif" font-size="15" font-weight="600" fill="#ffffff">Pronađi firmu</text>
+
+    <rect x="60" y="195" width="170" height="34" rx="8" fill="#f7f9fc" stroke="#cfd9e6"/>
+    <text x="72" y="217" font-family="ui-monospace, monospace" font-size="13" fill="#3a4658">naziv firme</text>
+
+    <rect x="60" y="239" width="170" height="34" rx="8" fill="#f7f9fc" stroke="#cfd9e6"/>
+    <text x="72" y="261" font-family="ui-monospace, monospace" font-size="13" fill="#3a4658">matični broj</text>
+
+    <rect x="60" y="283" width="170" height="34" rx="8" fill="#f7f9fc" stroke="#cfd9e6"/>
+    <text x="72" y="305" font-family="ui-monospace, monospace" font-size="13" fill="#3a4658">PIB</text>
+
+    <text x="74" y="345" font-family="Inter, sans-serif" font-size="12" fill="#8fa3c1">bilo koji od tri podatka</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <line x1="258" y1="245" x2="298" y2="245" stroke="#e8b71a" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 box -->
+  <g>
+    <rect x="305" y="120" width="190" height="250" rx="14" fill="#0e2a4c" stroke="#1db58a" stroke-width="1.5"/>
+    <circle cx="339" cy="158" r="18" fill="#1db58a"/>
+    <text x="339" y="164" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#081a2e">2</text>
+    <text x="369" y="164" font-family="Inter, sans-serif" font-size="15" font-weight="600" fill="#ffffff">Izaberi izveštaj</text>
+
+    <rect x="325" y="195" width="150" height="34" rx="8" fill="#13335c" stroke="#1d4575"/>
+    <text x="337" y="217" font-family="Inter, sans-serif" font-size="12.5" fill="#cdd8e8">tip: redovan</text>
+
+    <rect x="325" y="239" width="150" height="34" rx="8" fill="#13335c" stroke="#1d4575"/>
+    <text x="337" y="261" font-family="Inter, sans-serif" font-size="12.5" fill="#cdd8e8">godina: 2024</text>
+
+    <rect x="325" y="283" width="150" height="34" rx="8" fill="#13335c" stroke="#1d4575"/>
+    <text x="337" y="305" font-family="Inter, sans-serif" font-size="12.5" fill="#cdd8e8">+ ranije godine</text>
+
+    <text x="339" y="345" font-family="Inter, sans-serif" font-size="12" fill="#8fa3c1">gledaj 3–5 godina, ne jednu</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <line x1="503" y1="245" x2="543" y2="245" stroke="#e8b71a" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 box -->
+  <g>
+    <rect x="550" y="120" width="210" height="250" rx="14" fill="#0e2a4c" stroke="#e8b71a" stroke-width="1.5"/>
+    <circle cx="584" cy="158" r="18" fill="#e8b71a"/>
+    <text x="584" y="164" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#081a2e">3</text>
+    <text x="614" y="164" font-family="Inter, sans-serif" font-size="15" font-weight="600" fill="#ffffff">Čitaj brojke</text>
+
+    <g font-family="Inter, sans-serif" font-size="12.5" fill="#cdd8e8">
+      <circle cx="576" cy="196" r="3" fill="#1db58a"/><text x="588" y="200">dobitak ili gubitak</text>
+      <circle cx="576" cy="224" r="3" fill="#1db58a"/><text x="588" y="228">obaveze (dugovi)</text>
+      <circle cx="576" cy="252" r="3" fill="#1db58a"/><text x="588" y="256">trend prihoda</text>
+      <circle cx="576" cy="280" r="3" fill="#1db58a"/><text x="588" y="284">likvidnost</text>
+      <circle cx="576" cy="308" r="3" fill="#1db58a"/><text x="588" y="312">redovnost predaje</text>
+    </g>
+    <text x="584" y="345" font-family="Inter, sans-serif" font-size="12" fill="#8fa3c1">crno na belo, besplatno</text>
+  </g>
+
+  <!-- footer -->
+  <text x="400" y="430" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#6e85a8">
+    Provera traje par minuta — pre nego što uložiš ili potpišeš ugovor sa firmom.
+  </text>
+</svg>
