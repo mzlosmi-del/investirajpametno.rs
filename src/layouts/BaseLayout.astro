@@ -25,8 +25,10 @@ const props = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#0f2742" />
     <link rel="preload" href="/fonts/source-sans-wght.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/source-serif-wght.woff2" as="font" type="font/woff2" crossorigin />
@@ -36,10 +38,4 @@ const props = Astro.props;
   <body>
     <a href="#main" class="skip-link">Preskoči na sadržaj</a>
     <Header />
-    <main id="main">
-      <slot />
-    </main>
-    <Footer />
-    <ConsentAnalytics measurementId={GA_MEASUREMENT_ID} />
-  </body>
-</html>
+    <main id="m
