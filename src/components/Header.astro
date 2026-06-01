@@ -67,4 +67,24 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
     transition: color 0.2s var(--ease), background 0.2s var(--ease);
   }
   .nav-link:hover { color: #fff; background: rgba(255, 255, 255, 0.06); }
-  .nav-link.activ
+  .nav-link.active { color: var(--emerald-bright); }
+
+  .nav-toggle, .burger { display: none; }
+  .burger { flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+  .burger span { width: 24px; height: 2px; background: #fff; border-radius: 2px; transition: 0.25s var(--ease); }
+
+  @media (max-width: 720px) {
+    .burger { display: flex; }
+    .nav {
+      position: absolute; inset: 68px 0 auto 0; flex-direction: column; gap: 0;
+      background: var(--navy-800); border-bottom: 1px solid var(--navy-line);
+      padding: 0.5rem 1.2rem 1rem;
+      max-height: 0; overflow: hidden; transition: max-height 0.3s var(--ease);
+    }
+    .nav-link { padding: 0.8em 0.5em; border-radius: 0; }
+    .nav-toggle:checked ~ .nav { max-height: 320px; }
+    .nav-toggle:checked ~ .burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-toggle:checked ~ .burger span:nth-child(2) { opacity: 0; }
+    .nav-toggle:checked ~ .burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  }
+</style>
