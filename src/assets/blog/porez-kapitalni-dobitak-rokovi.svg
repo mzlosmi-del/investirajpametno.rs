@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-label="Rokovi za prijavu poreza na kapitalni dobitak: akcije i ETF dva puta godišnje do 30. jula i 30. januara, kripto 120 dana od kvartala">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c2444"/>
+      <stop offset="100%" stop-color="#081a2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="430" fill="url(#bg)"/>
+  <g stroke="#143058" stroke-width="1" opacity="0.45">
+    <path d="M0 110 H800"/>
+  </g>
+
+  <text x="40" y="52" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Rokovi za prijavu (obrazac PPDG-3R)</text>
+  <text x="40" y="76" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Akcije i kripto imaju različite rokove — ne meša ih.</text>
+
+  <!-- Akcije / HoV card -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="40" y="135" width="350" height="250" rx="14" fill="#0f2742" stroke="#1f3a5f"/>
+    <text x="64" y="172" font-size="17" font-weight="700" fill="#4fe0b0">AKCIJE · ETF · HARTIJE</text>
+    <text x="64" y="196" font-size="13" fill="#a6b6cc">Dva puta godišnje, prema periodu prodaje</text>
+
+    <rect x="64" y="216" width="302" height="64" rx="10" fill="#0c2444" stroke="#25d49f" stroke-width="1.5"/>
+    <text x="80" y="244" font-size="14" fill="#cdd9e9">Prodaje jan–jun</text>
+    <text x="350" y="252" text-anchor="end" font-size="22" font-weight="700" fill="#ffffff">do 30. jula</text>
+
+    <rect x="64" y="292" width="302" height="64" rx="10" fill="#0c2444" stroke="#25d49f" stroke-width="1.5"/>
+    <text x="80" y="320" font-size="14" fill="#cdd9e9">Prodaje jul–dec</text>
+    <text x="350" y="328" text-anchor="end" font-size="22" font-weight="700" fill="#ffffff">do 30. januara</text>
+  </g>
+
+  <!-- Kripto card -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="410" y="135" width="350" height="250" rx="14" fill="#0f2742" stroke="#1f3a5f"/>
+    <text x="434" y="172" font-size="17" font-weight="700" fill="#e8b71a">KRIPTO · DIGITALNA IMOVINA</text>
+    <text x="434" y="196" font-size="13" fill="#a6b6cc">Po kvartalu u kojem je ostvaren prihod</text>
+
+    <rect x="434" y="216" width="302" height="140" rx="10" fill="#06251c" stroke="#e8b71a" stroke-width="1.5"/>
+    <text x="585" y="284" text-anchor="middle" font-size="46" font-weight="700" fill="#ffffff">120 dana</text>
+    <text x="585" y="318" text-anchor="middle" font-size="14" fill="#cdd9e9">od isteka kvartala</text>
+  </g>
+
+  <text x="40" y="412" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Prijava se podnosi i kad je ostvaren gubitak — tako stičeš pravo da ga prebiješ u narednih 5 godina.</text>
+</svg>

@@ -28,8 +28,11 @@ Attribution is provided here as good practice.
 | `diversifikacija-dijagram.svg` | Original — Investiraj Pametno | Branded diagram: one basket vs many (ETF) |
 | `akcije-nekretnine-stednja-hero.jpg` | Original — Investiraj Pametno | Branded hero: stocks vs real estate vs savings (rasterized SVG) |
 | `akcije-nekretnine-stednja-dijagram.svg` | Original — Investiraj Pametno | Branded diagram comparing savings, stocks and real estate |
+| `porez-kapitalni-dobitak-hero.jpg` | Original — Investiraj Pametno | Branded hero: capital gains tax (15%), stocks/ETF/crypto (rasterized SVG) |
+| `porez-kapitalni-dobitak-formula.svg` | Original — Investiraj Pametno | Branded diagram: (sale − cost) × 15% = tax |
+| `porez-kapitalni-dobitak-rokovi.svg` | Original — Investiraj Pametno | Branded diagram: filing deadlines for securities vs crypto |
 
-Used in: `kako-investirati-u-nekretnine.md`, `ulaganje-novca-u-akcije.md`, `novac-i-budzet.md`, `gde-uloziti-1000-evra.md`, `zasto-ne-investirati-u-fondove.md`, `hitna-rezerva-fond-za-crne-dane.md`, `diversifikacija-portfolija.md`, `akcije-nekretnine-ili-stednja.md`
+Used in: `kako-investirati-u-nekretnine.md`, `ulaganje-novca-u-akcije.md`, `novac-i-budzet.md`, `gde-uloziti-1000-evra.md`, `zasto-ne-investirati-u-fondove.md`, `hitna-rezerva-fond-za-crne-dane.md`, `diversifikacija-portfolija.md`, `akcije-nekretnine-ili-stednja.md`, `porez-na-kapitalni-dobitak.md`
 
 Note: images are downloaded and served locally (optimized via Astro `astro:assets`),
 not hot-linked, to keep performance high and avoid broken external links.
