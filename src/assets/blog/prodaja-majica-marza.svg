@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="Raspodela cene jedne majice u print-on-demand modelu: trošak izrade, provizija platforme i tvoja marža">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c2444"/><stop offset="100%" stop-color="#081a2e"/></linearGradient></defs>
+  <rect width="800" height="470" fill="url(#bg)"/>
+  <text x="40" y="44" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Šta ostane od jedne majice (primer)</text>
+  <text x="40" y="66" font-family="Inter, Arial, sans-serif" font-size="13" fill="#a6b6cc">prodajna cena ≈ 20 € u print-on-demand modelu bez sopstvenog magacina</text>
+  <!-- stacked bar -->
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="60" y="120" width="400" height="60" rx="8" fill="#1f3a5f"/>
+    <rect x="60" y="120" width="240" height="60" rx="8" fill="#3a4f6b"/>
+    <rect x="60" y="120" width="120" height="60" rx="8" fill="#e8b71a"/>
+    <text x="120" y="156" text-anchor="middle" font-size="13" font-weight="700" fill="#081a2e">izrada</text>
+    <text x="370" y="156" text-anchor="middle" font-size="13" fill="#cdd9e8">prodajna cena 20 €</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="14">
+    <rect x="540" y="110" width="20" height="20" fill="#3a4f6b"/><text x="570" y="126" fill="#cdd9e8">izrada + dostava ≈ 11 €</text>
+    <rect x="540" y="145" width="20" height="20" fill="#1f3a5f"/><text x="570" y="161" fill="#cdd9e8">provizija/porez ≈ 5 €</text>
+    <rect x="540" y="180" width="20" height="20" fill="#e8b71a"/><text x="570" y="196" fill="#e8b71a" font-weight="700">tvoja marža ≈ 4 €</text>
+  </g>
+  <text x="60" y="250" font-family="Inter, Arial, sans-serif" font-size="15" fill="#fff" font-weight="700">Da zaradiš 400 € mesečno marže:</text>
+  <text x="60" y="284" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#4fe0b0">≈ 100 majica / mesec</text>
+  <text x="60" y="320" font-family="Inter, Arial, sans-serif" font-size="13" fill="#a6b6cc">a to znači marketing, oglase, dizajn i kupce — ne samo „okačiš i čekaš"</text>
+  <rect x="60" y="350" width="680" height="80" rx="12" fill="#06251c" stroke="#25d49f" stroke-width="1.5"/>
+  <text x="80" y="384" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4fe0b0">Pravo pitanje nije „koliko po majici", nego „koliko majica mesečno</text>
+  <text x="80" y="408" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4fe0b0">mogu da prodam" — i koliko me košta da dođem do tih kupaca.</text>
+</svg>

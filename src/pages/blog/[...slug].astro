@@ -18,7 +18,7 @@ const d = post.data;
 const dateStr = d.pubDate.toLocaleDateString('sr-RS', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
-const url = new URL(`/blog/${post.id}`, Astro.site).href;
+const url = new URL(`/blog/${post.id}/`, Astro.site).href;
 
 // Compute an absolute URL for the hero image so og:image and Article.image resolve fully.
 let heroUrl: string | undefined;

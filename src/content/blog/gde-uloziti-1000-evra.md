@@ -78,7 +78,7 @@ Ako su dugovi i rezerva rešeni, sa 1.000 evra najpametnije je:
 
 ## A ako ne želim u akcije?
 
-Legitimno pitanje. Ako ti je horizont kratak (novac ti treba za godinu-dve), akcije nisu mesto za njega — tu je bolja sigurna, dostupna štednja. Ako razmišljaš šire o tome gde uopšte da staviš pare, [poređenje akcija, nekretnina i štednje je u zasebnom tekstu](/blog/akcije-nekretnine-ili-stednja). Sa 1.000 evra, doduše, nekretnine otpadaju same od sebe — ostaje ti štednja za kratak rok ili ETF za dug.
+Legitimno pitanje. Ako ti je horizont kratak (novac ti treba za godinu-dve), akcije nisu mesto za njega — tu je bolja sigurna, dostupna štednja. Ako razmišljaš šire o tome gde uopšte da staviš pare, [poređenje akcija, nekretnina i štednje je u zasebnom tekstu](/blog/akcije-nekretnine-ili-stednja). A ako želiš pregled svih opcija na jednom mestu, tu je vodič [gde uložiti novac u Srbiji](/blog/gde-uloziti-novac). Sa 1.000 evra, doduše, nekretnine otpadaju same od sebe — ostaje ti štednja za kratak rok ili ETF za dug.
 
 > **Napomena:** ovaj tekst je informativnog karaktera i ne predstavlja investicioni savet. Procenu sopstvene situacije i rizika donosiš sam.
 

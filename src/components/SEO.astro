@@ -25,8 +25,13 @@ const {
 } = Astro.props;
 
 const siteName = 'Investiraj Pametno';
-const canonical =
-  new URL(Astro.url.pathname, Astro.site).href.replace(/\/$/, '') || Astro.site!.href;
+// Always canonicalize WITH a trailing slash so the canonical tag matches the
+// served URL and the sitemap (trailingSlash: 'always'). No trailing-slash
+// stripping — that previously made canonical disagree with both.
+const canonicalPath = Astro.url.pathname.endsWith('/')
+  ? Astro.url.pathname
+  : `${Astro.url.pathname}/`;
+const canonical = new URL(canonicalPath, Astro.site).href;
 const imageUrl = new URL(image, Astro.site).href;
 
 // Site-wide Organization schema, always present.
