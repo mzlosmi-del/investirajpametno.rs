@@ -79,7 +79,7 @@ Porez na kapitalni dobitak nije samo „porez na akcije". Plaća se na prenos vi
 
 Pod „prenosom" se ne smatra samo klasična prodaja za novac, nego i svaki drugi prenos uz naknadu — na primer unos akcija kao nenovčanog uloga u firmu, ili, kod kripta, **zamena jedne valute za drugu**.
 
-Ako tek planiraš da uđeš u ovo, prvo pročitaj [kako iz Srbije da kupiš akcije i ETF-ove](/blog/ulaganje-novca-u-akcije) i [zašto je ETF najčešće jeftiniji izbor od klasičnih fondova](/blog/zasto-ne-investirati-u-fondove) — porez je tek poslednja karika u tom lancu.
+Ako tek planiraš da uđeš u ovo, prvo pročitaj [kako iz Srbije da kupiš akcije i ETF-ove](/blog/ulaganje-novca-u-akcije/) i [zašto je ETF najčešće jeftiniji izbor od klasičnih fondova](/blog/zasto-ne-investirati-u-fondove/) — porez je tek poslednja karika u tom lancu.
 
 ## Kako se računa porez — uz konkretan primer
 
@@ -110,7 +110,7 @@ Ovo je deo koji ti može uštedeti najviše. Zakon izričito kaže da se **kapit
 
 Za sve ove slučajeve **ne plaćaš porez i ne podnosiš prijavu.**
 
-Pravilo od deset godina je posebno zanimljivo za dugoročne investitore: ako kupiš i držiš široki ETF deceniju i po, pa prodaš — po ovom osnovu možeš biti oslobođen poreza. To je još jedan argument u prilog [dugoročnom, strpljivom pristupu umesto stalne trgovine](/blog/diversifikacija-portfolija). Za digitalnu imovinu isto pravilo verovatno važi, ali zvanično mišljenje nadležnih još nije izdato, pa tu budi oprezan.
+Pravilo od deset godina je posebno zanimljivo za dugoročne investitore: ako kupiš i držiš široki ETF deceniju i po, pa prodaš — po ovom osnovu možeš biti oslobođen poreza. To je još jedan argument u prilog [dugoročnom, strpljivom pristupu umesto stalne trgovine](/blog/diversifikacija-portfolija/). Za digitalnu imovinu isto pravilo verovatno važi, ali zvanično mišljenje nadležnih još nije izdato, pa tu budi oprezan.
 
 ## Kapitalni gubitak nije kraj sveta — i njega prijavljuješ
 
@@ -139,7 +139,7 @@ Kripto se oporezuje po istoj stopi od 15%, ali ima par bitnih razlika:
 - **Olakšica za reinvestiranje:** ako novac od prodaje kripta u roku od **90 dana** uložiš u osnovni kapital domaćeg privrednog društva ili investicionog fonda, možeš biti oslobođen **50% poreza**. Ako to uradiš kasnije, ali u roku od **12 meseci**, imaš pravo na **povraćaj 50%** plaćenog poreza.
 - **Rudarenje** se priznaje kao način sticanja: nabavnom cenom se smatraju dokumentovani troškovi (struja, oprema) koje možeš da dokažeš.
 
-Ako pratiš tržište i tek razmišljaš kako da rasporediš novac, koristi može i tekst [gde uložiti prvih 1.000 evra](/blog/gde-uloziti-1000-evra) — porez planiraš pre prve kupovine, ne posle prve prodaje.
+Ako pratiš tržište i tek razmišljaš kako da rasporediš novac, koristi može i tekst [gde uložiti prvih 1.000 evra](/blog/gde-uloziti-1000-evra/) — porez planiraš pre prve kupovine, ne posle prve prodaje.
 
 ![Rokovi za prijavu PPDG-3R: akcije i ETF dva puta godišnje (do 30. jula i do 30. januara), kripto u roku od 120 dana od isteka kvartala](../../assets/blog/porez-kapitalni-dobitak-rokovi.svg)
 

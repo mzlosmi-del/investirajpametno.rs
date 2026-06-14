@@ -3,10 +3,34 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const email = 'kontakt@investirajpametno.rs';
 const instagram = 'https://instagram.com/investiraj_pametno';
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Kontakt — Investiraj Pametno',
+  url: 'https://investirajpametno.rs/kontakt/',
+  inLanguage: 'sr-Latn-RS',
+  mainEntity: {
+    '@type': 'Organization',
+    name: 'Investiraj Pametno',
+    url: 'https://investirajpametno.rs/',
+    email: email,
+    sameAs: [instagram],
+  },
+};
+const contactBreadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Početna', item: 'https://investirajpametno.rs/' },
+    { '@type': 'ListItem', position: 2, name: 'Kontakt', item: 'https://investirajpametno.rs/kontakt/' },
+  ],
+};
 ---
 <BaseLayout
   title="Kontakt — Investiraj Pametno"
   description="Pitanje, predlog teme ili saradnja? Javi se. Tu smo da pričamo o parama otvoreno."
+  jsonLd={[contactSchema, contactBreadcrumb]}
 >
   <header class="page-head">
     <div class="container narrow">

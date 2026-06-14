@@ -9,10 +9,23 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 const latest = posts.slice(0, 3);
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Investiraj Pametno',
+  alternateName: 'investirajpametno.rs',
+  url: 'https://investirajpametno.rs/',
+  inLanguage: 'sr-Latn-RS',
+  description:
+    'Praktični vodiči za lične finansije i investiranje u Srbiji — štednja, budžet, dugovi, akcije, ETF i nekretnine, bez magije i bez kockanja.',
+  publisher: { '@type': 'Organization', name: 'Investiraj Pametno', url: 'https://investirajpametno.rs/' },
+};
 ---
 <BaseLayout
-  title="Investiraj Pametno — lične finansije i investiranje bez ulepšavanja"
-  description="Nauči kako da preuzmeš kontrolu nad svojim novcem, otplatiš dugove i počneš da investiraš. Praktični vodiči za lične finansije u Srbiji — bez magije i bez kockanja."
+  title="Investiraj Pametno — lične finansije i investiranje u Srbiji"
+  description="Nauči kako da preuzmeš kontrolu nad novcem, otplatiš dugove i počneš da investiraš. Praktični vodiči za lične finansije, štednju, akcije, ETF i nekretnine u Srbiji — bez magije i bez kockanja."
+  jsonLd={websiteSchema}
 >
   <Hero />
   <BabySteps />
@@ -25,12 +38,12 @@ const latest = posts.slice(0, 3);
             <p class="label">Sveže sa bloga</p>
             <h2>Najnoviji tekstovi</h2>
           </div>
-          <a href="/blog" class="all">Svi tekstovi →</a>
+          <a href="/blog/" class="all">Svi tekstovi →</a>
         </header>
         <div class="grid">
           {latest.map((p) => (
             <ArticleCard
-              href={`/blog/${p.id}`}
+              href={`/blog/${p.id}/`}
               title={p.data.title}
               description={p.data.description}
               category={p.data.category}
@@ -51,7 +64,7 @@ const latest = posts.slice(0, 3);
         Postoji samo plan, strpljenje i navika. Ako tražiš nekoga ko će ti reći istinu o parama —
         na pravom si mestu.
       </p>
-      <a href="/o-nama" class="btn btn-primary">Upoznaj priču →</a>
+      <a href="/o-nama/" class="btn btn-primary">Upoznaj priču →</a>
     </div>
   </section>
 </BaseLayout>

@@ -61,7 +61,7 @@ Nijedna pojedinačna firma, ma koliko delovala sigurno, nije imuna na propast. S
 
 Ali ako tvoj novac radi kroz stotine firmi odjednom, propast jedne ili dve je samo ogrebotina, ne smrtonosna rana. Tržište kao celina raste dugoročno, čak i kad pojedinačne firme padaju.
 
-To je ista logika zbog koje [ulaganje u akcije nije kockanje](/blog/investiranje-nije-kockanje) — dok god ne kladiš sve na jedan ishod.
+To je ista logika zbog koje [ulaganje u akcije nije kockanje](/blog/investiranje-nije-kockanje/) — dok god ne kladiš sve na jedan ishod.
 
 ![Diversifikacija portfolija — rizik razbacan kroz mnogo firmi i sektora umesto sve na jednu kartu](../../assets/blog/diversifikacija-dijagram.svg)
 
@@ -71,7 +71,7 @@ Ne moraš ručno da kupuješ stotinu akcija da bi bio diversifikovan. Za to post
 
 ETF je, jednostavno rečeno, korpa koja u sebi već sadrži mnogo akcija. Kupiš jedan ETF koji prati, recimo, celo svetsko tržište — i odjednom si suvlasnik u hiljadama firmi širom sveta. Jednim potezom, sa malim novcem.
 
-Zato su ETF-ovi savršeni za početnike: instant diversifikacija, niski troškovi, bez potrebe da analiziraš pojedinačne firme. Kako se ETF kupuje iz Srbije objasnili smo u vodiču [ulaganje novca u akcije](/blog/ulaganje-novca-u-akcije), a zašto je često bolji od skupih fondova u tekstu [investicioni fondovi vs ETF](/blog/zasto-ne-investirati-u-fondove).
+Zato su ETF-ovi savršeni za početnike: instant diversifikacija, niski troškovi, bez potrebe da analiziraš pojedinačne firme. Kako se ETF kupuje iz Srbije objasnili smo u vodiču [ulaganje novca u akcije](/blog/ulaganje-novca-u-akcije/), a zašto je često bolji od skupih fondova u tekstu [investicioni fondovi vs ETF](/blog/zasto-ne-investirati-u-fondove/). ETF-ovi i druge hartije od vrednosti su regulisani instrumenti — tržište u Srbiji nadzire [Komisija za hartije od vrednosti](https://www.sec.gov.rs/).
 
 ## Ali nemoj ni da preteraš
 
@@ -79,11 +79,11 @@ Diversifikacija ne znači da kupiš 50 različitih stvari koje ne razumeš. To j
 
 Za većinu ljudi, par širokih ETF-ova je sasvim dovoljno da bude pametno razbacano. Ne komplikuj. Dodavanje desete sličnice ne smanjuje rizik — samo otežava preglednost i diže troškove.
 
-Vredi razumeti i granicu: diversifikacija uklanja rizik pojedinačne firme, ali ne i rizik celog tržišta. Kad padne sve, padaju i široki fondovi — i to je normalno. Od tog pada te ne čuva broj pozicija, nego dug horizont i to što [ne ulažeš novac koji ti treba uskoro](/blog/hitna-rezerva-fond-za-crne-dane) i ne [prodaješ u panici](/blog/redovno-pracenje-cena-akcija).
+Vredi razumeti i granicu: diversifikacija uklanja rizik pojedinačne firme, ali ne i rizik celog tržišta. Kad padne sve, padaju i široki fondovi — i to je normalno. Od tog pada te ne čuva broj pozicija, nego dug horizont i to što [ne ulažeš novac koji ti treba uskoro](/blog/hitna-rezerva-fond-za-crne-dane/) i ne [prodaješ u panici](/blog/redovno-pracenje-cena-akcija/).
 
 ## Diversifikacija i izvan akcija
 
-Diversifikacija ne staje na akcijama. Možeš da razbacaš i kroz klase imovine — pa logika „ne sve na jedno" važi i kad biraš između [akcija, nekretnina i štednje](/blog/akcije-nekretnine-ili-stednja). Sigurna štednja, široki ETF i (kad skupiš kapital) nekretnina igraju različite uloge: jedno čuva, drugo raste, treće daje opipljiv prihod.
+Diversifikacija ne staje na akcijama. Možeš da razbacaš i kroz klase imovine — pa logika „ne sve na jedno" važi i kad biraš između [akcija, nekretnina i štednje](/blog/akcije-nekretnine-ili-stednja/). Sigurna štednja, široki ETF i (kad skupiš kapital) nekretnina igraju različite uloge: jedno čuva, drugo raste, treće daje opipljiv prihod.
 
 ## Suština
 

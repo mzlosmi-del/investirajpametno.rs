@@ -35,7 +35,7 @@ const path = Astro.url.pathname.replace(/\/$/, '') || '/';
       {links.map((l) => {
         const active = l.href === '/' ? path === '/' : path.startsWith(l.href);
         return (
-          <a href={l.href} class:list={['nav-link', { active }]} aria-current={active ? 'page' : undefined}>
+          <a href={l.href === '/' ? '/' : l.href + '/'} class:list={['nav-link', { active }]} aria-current={active ? 'page' : undefined}>
             {l.label}
           </a>
         );

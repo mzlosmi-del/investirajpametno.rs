@@ -39,9 +39,9 @@ Ovaj tekst je mapa, ne recept. Proći ćemo kroz sve glavne načine da uložiš 
 Najpametnije ulaganje često nije nikakvo ulaganje — nego sređivanje osnova. Pre nego što kreneš da biraš između ETF-a i nekretnine, odgovori iskreno na dva pitanja:
 
 - **Imaš li skupe dugove?** Kartice, keš krediti i dozvoljeni minus često nose kamatu od 10–20%. Otplata takvog duga je „prinos” koji nijedna investicija ne garantuje. Tu novac ide prvi.
-- **Imaš li rezervu za hitne slučajeve?** Ako ti kvar na kolima ili gubitak posla odmah ruše sve planove, prvo napravi [hitnu rezervu — fond za crne dane](/blog/hitna-rezerva-fond-za-crne-dane). Tek onda ulažeš novac koji ti ne treba odmah.
+- **Imaš li rezervu za hitne slučajeve?** Ako ti kvar na kolima ili gubitak posla odmah ruše sve planove, prvo napravi [hitnu rezervu — fond za crne dane](/blog/hitna-rezerva-fond-za-crne-dane/). Tek onda ulažeš novac koji ti ne treba odmah.
 
-Ako su ta dva temelja postavljena, prelazimo na opcije. Šira slika o tome zašto je uopšte vredno staviti pare da rade je u tekstu [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno).
+Ako su ta dva temelja postavljena, prelazimo na opcije. Šira slika o tome zašto je uopšte vredno staviti pare da rade je u tekstu [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno/).
 
 ![Mapa opcija za ulaganje novca u Srbiji prema roku i riziku: štednja, obveznice, ETF i nekretnine](../../assets/blog/gde-uloziti-novac-mapa.svg)
 
@@ -66,10 +66,10 @@ Kupovinom državnih obveznica Republike Srbije praktično pozajmljuješ novac dr
 
 Kada ljudi kažu „investiranje”, najčešće misle na ovo. Kupovinom **akcija** postaješ suvlasnik firme; kupovinom **ETF-a** jednim potezom kupuješ sitne delove stotina ili hiljada firmi odjednom. Na dug rok (5+ godina) široko tržište akcija istorijski donosi najviše — ali uz oscilacije koje moraš da podneseš.
 
-Kako se to konkretno radi iz Srbije — izbor regulisanog brokera, otvaranje naloga i prva uplata — objasnili smo korak po korak u vodiču [ulaganje novca u akcije](/blog/ulaganje-novca-u-akcije). Dve stvari su ključne za početnika:
+Kako se to konkretno radi iz Srbije — izbor regulisanog brokera, otvaranje naloga i prva uplata — objasnili smo korak po korak u vodiču [ulaganje novca u akcije](/blog/ulaganje-novca-u-akcije/). Dve stvari su ključne za početnika:
 
-- **Diversifikacija.** Ne stavljaj sve na jednu firmu. Zašto je [diversifikacija obavezna](/blog/diversifikacija-portfolija) i kako je širok ETF rešava jednim potezom.
-- **Troškovi.** Visoke provizije i naknade tiho jedu prinos. Zato pre aktivnih fondova pogledaj [zašto provizije fondova često pojedu zaradu](/blog/zasto-ne-investirati-u-fondove).
+- **Diversifikacija.** Ne stavljaj sve na jednu firmu. Zašto je [diversifikacija obavezna](/blog/diversifikacija-portfolija/) i kako je širok ETF rešava jednim potezom.
+- **Troškovi.** Visoke provizije i naknade tiho jedu prinos. Zato pre aktivnih fondova pogledaj [zašto provizije fondova često pojedu zaradu](/blog/zasto-ne-investirati-u-fondove/).
 
 > **Napomena:** ovaj tekst je informativnog karaktera i ne predstavlja investicioni savet. Tržište akcija nosi rizik gubitka i procenu sopstvene situacije donosiš sam.
 
@@ -84,11 +84,11 @@ Dobrovoljni penzioni fond je način da dugoročno odvajaš za penziju, često uz
 
 Nekretnine su omiljena tema u Srbiji i mogu da budu dobra dugoročna investicija — kroz rast vrednosti i kroz prihod od izdavanja. Ali traže veliki početni kapital, manje su „tečne” (ne prodaš ih za dan) i nose troškove održavanja i poreza.
 
-Pre kupovine obavezno proveri vlasništvo i teret nad nekretninom preko [eKatastra](/blog/ekatastar-provera-vlasnika-nekretnine), a šire o ulasku u ovu klasu imovine piše [kako investirati u nekretnine](/blog/kako-investirati-u-nekretnine). Ako se dvoumiš između ove tri velike kategorije, pogledaj direktno poređenje: [akcije, nekretnine ili štednja](/blog/akcije-nekretnine-ili-stednja).
+Pre kupovine obavezno proveri vlasništvo i teret nad nekretninom preko [eKatastra](/blog/ekatastar-provera-vlasnika-nekretnine/), a šire o ulasku u ovu klasu imovine piše [kako investirati u nekretnine](/blog/kako-investirati-u-nekretnine/). Ako se dvoumiš između ove tri velike kategorije, pogledaj direktno poređenje: [akcije, nekretnine ili štednja](/blog/akcije-nekretnine-ili-stednja/).
 
 ## 6. Zlato i alternative — mali deo, ne ceo plan
 
-Zlato, kripto i slične „alternativne” stvari privlače pažnju, ali su nestabilne i ne donose prihod sami po sebi (nema kamate ni dividende). Mogu da budu mali začin u portfelju, ali su loš temelj. Sve što obećava brz i siguran visok prinos tretiraj kao crvenu zastavicu — više o toj granici u tekstu [investiranje nije kockanje](/blog/investiranje-nije-kockanje).
+Zlato, kripto i slične „alternativne” stvari privlače pažnju, ali su nestabilne i ne donose prihod sami po sebi (nema kamate ni dividende). Mogu da budu mali začin u portfelju, ali su loš temelj. Sve što obećava brz i siguran visok prinos tretiraj kao crvenu zastavicu — više o toj granici u tekstu [investiranje nije kockanje](/blog/investiranje-nije-kockanje/).
 
 ## Kako da izabereš: rok + rizik
 
@@ -97,11 +97,11 @@ Umesto da tražiš „najbolju” opciju, postavi sebi dva pitanja:
 1. **Kada će mi taj novac trebati?** Za godinu-dve → štednja/obveznice. Za 5+ godina → ETF/akcije, eventualno nekretnine.
 2. **Koliko mirno spavam kad vrednost padne?** Ako te pad od 20% tera da prodaš u panici, smanji udeo akcija i pojačaj sigurniji deo.
 
-U praksi većina ljudi ne bira jednu opciju nego ih kombinuje: rezerva u štednji, dugoročni deo u ETF-u, možda nekretnina kad se skupi dovoljno. Koliko god da je iznos, počni — i ako imaš tačno hiljadu evra, imamo i konkretan redosled poteza u tekstu [gde uložiti 1.000 evra](/blog/gde-uloziti-1000-evra).
+U praksi većina ljudi ne bira jednu opciju nego ih kombinuje: rezerva u štednji, dugoročni deo u ETF-u, možda nekretnina kad se skupi dovoljno. Koliko god da je iznos, počni — i ako imaš tačno hiljadu evra, imamo i konkretan redosled poteza u tekstu [gde uložiti 1.000 evra](/blog/gde-uloziti-1000-evra/).
 
 ## I na kraju — porez
 
-Na zaradu od ulaganja se plaća porez. U Srbiji se na kapitalni dobitak od akcija, ETF-ova i kripta po pravilu plaća **15%**, uz olakšice i rokove koje smo razložili u tekstu [porez na kapitalni dobitak](/blog/porez-na-kapitalni-dobitak). Uračunaj porez u plan od početka da te ne iznenadi.
+Na zaradu od ulaganja se plaća porez. U Srbiji se na kapitalni dobitak od akcija, ETF-ova i kripta po pravilu plaća **15%**, uz olakšice i rokove koje smo razložili u tekstu [porez na kapitalni dobitak](/blog/porez-na-kapitalni-dobitak/). Uračunaj porez u plan od početka da te ne iznenadi.
 
 ## Zaključak
 

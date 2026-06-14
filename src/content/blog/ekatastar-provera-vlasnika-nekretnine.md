@@ -40,7 +40,7 @@ faq:
     a: "Velika većina nekretnina u Srbiji jeste upisana, ali ima izuzetaka — naročito u zaleđu velikih gradova ili kod starije gradnje. Ako ne nađeš objekat, to je samo po sebi crvena zastavica i razlog da zatražiš zvanične dokumente pre bilo kakve uplate."
 ---
 
-Daješ [kaparu](/blog/hitna-rezerva-fond-za-crne-dane) za stan koji unajmljuješ. [Kupuješ vikendicu](/blog/kako-investirati-u-nekretnine) od „prijatelja prijatelja". Plaćaš avans za parcelu koja te čeka već dve godine.
+Daješ [kaparu](/blog/hitna-rezerva-fond-za-crne-dane/) za stan koji unajmljuješ. [Kupuješ vikendicu](/blog/kako-investirati-u-nekretnine/) od „prijatelja prijatelja". Plaćaš avans za parcelu koja te čeka već dve godine.
 
 A nisi proverio ni jednu jedinu stvar: da li ti čovek koji uzima novac uopšte ima pravo da ti je da.
 
@@ -52,11 +52,11 @@ Postoji besplatan državni alat koji ti za dva minuta kaže ko je pravi vlasnik,
 
 Za svaku tu nekretninu možeš da vidiš osnovne podatke: ko je vlasnik (ime i prezime, ili naziv firme), koliki je udeo svakog vlasnika, kolika je površina, i — najvažnije — da li postoje tereti i hipoteke.
 
-Sve to besplatno, sa telefona ili kompjutera, bez registracije i bez odlaska na šalter. Ovo je [još jedan besplatan državni alat](/blog/apr-pretraga-finansijskih-izvestaja) koji ti može spasti hiljade evra — a o kome niko ne priča.
+Sve to besplatno, sa telefona ili kompjutera, bez registracije i bez odlaska na šalter. Ovo je [još jedan besplatan državni alat](/blog/apr-pretraga-finansijskih-izvestaja/) koji ti može spasti hiljade evra — a o kome niko ne priča.
 
 ## Zašto je ovo zlato vredno
 
-Zamisli koliko ljudi je platilo kaparu osobi koja im je „pokazala stan" — a ispostavilo se da stan nije njen. Ili je kupilo zemlju koja je već pod hipotekom kod banke. Ili je dalo avans za parcelu koja ima [troje suvlasnika](/blog/akcije-nekretnine-ili-stednja), od kojih dvoje nije ni znalo da se prodaje.
+Zamisli koliko ljudi je platilo kaparu osobi koja im je „pokazala stan" — a ispostavilo se da stan nije njen. Ili je kupilo zemlju koja je već pod hipotekom kod banke. Ili je dalo avans za parcelu koja ima [troje suvlasnika](/blog/akcije-nekretnine-ili-stednja/), od kojih dvoje nije ni znalo da se prodaje.
 
 Ovo nisu izmišljeni scenariji. To se dešava svakog meseca. I skoro uvek je moglo da se spreči proverom koja traje koliko i jedna pretraga na Guglu.
 
@@ -95,7 +95,7 @@ Pravilo je jednostavno: **javni pristup za screening, overen prepis pre potpisa.
 
 ## Suština
 
-Hiljade ljudi godišnje izgube ozbiljan novac zato što su preskočili proveru koja je besplatna, brza i dostupna svakom čoveku sa telefonom. Ovo je tačka u kojoj se vidi razlika između onog ko zna [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno) i onog ko prati šta priča komšija.
+Hiljade ljudi godišnje izgube ozbiljan novac zato što su preskočili proveru koja je besplatna, brza i dostupna svakom čoveku sa telefonom. Ovo je tačka u kojoj se vidi razlika između onog ko zna [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno/) i onog ko prati šta priča komšija.
 
 Pre nego što daš kaparu — proveri vlasnika. Pre nego što potpišeš ugovor o najmu — proveri vlasnika. Pre nego što kupiš zemljište — proveri terete i hipoteke.
 

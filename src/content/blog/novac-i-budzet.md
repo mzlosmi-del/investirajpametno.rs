@@ -83,9 +83,9 @@ Nije sveto pismo, prilagodi ga sebi. U Srbiji, gde kirije i režije znaju da poj
 
 Najveća greška u redosledu: ljudi troše prvo, pa štede ono što ostane. A ne ostane ništa.
 
-Okreni to. Čim ti uđe plata, **prvo odvoji štednju** — idealno automatskim trajnim nalogom koji svaki mesec prebaci dogovoreni iznos na poseban račun. Tako štednja prestaje da zavisi od tvoje volje na kraju meseca. Prvih par stotina evra koje tako sakupiš ima jasan zadatak — to je tvoja [rezerva za crne dane](/blog/hitna-rezerva-fond-za-crne-dane), temelj na kom stoji sve ostalo.
+Okreni to. Čim ti uđe plata, **prvo odvoji štednju** — idealno automatskim trajnim nalogom koji svaki mesec prebaci dogovoreni iznos na poseban račun. Tako štednja prestaje da zavisi od tvoje volje na kraju meseca. Prvih par stotina evra koje tako sakupiš ima jasan zadatak — to je tvoja [rezerva za crne dane](/blog/hitna-rezerva-fond-za-crne-dane/), temelj na kom stoji sve ostalo.
 
-Kad rezerva stoji, sledeći korak je da taj novac ne kopni na računu nego da radi — o tome zašto je to važno pišemo u tekstu [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno).
+Kad rezerva stoji, sledeći korak je da taj novac ne kopni na računu nego da radi — o tome zašto je to važno pišemo u tekstu [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno/).
 
 ## Najveća laž koju sebi govoriš
 
@@ -93,7 +93,9 @@ Kad rezerva stoji, sledeći korak je da taj novac ne kopni na računu nego da ra
 
 Da budemo iskreni: u 90% slučajeva to nije istina. Imaš od čega, samo nisi spreman da se odrekneš nečega. A to je tvoj izbor — samo budi pošten i nazovi ga pravim imenom. Mesec dana beleži baš svaki trošak i skoro uvek se pojavi prostor za koji nisi ni znao.
 
-Ako želiš dublje da razvijaš zdrav odnos sa novcem i naviku štednje, pročitaj i [kako da konačno počneš da štediš i ne odustaneš](/blog/kako-pametno-upravljati-finansijama), a budžet je i prvi od [7 koraka do finansijske slobode](/blog/7-koraka-do-finansijske-slobode).
+Ako želiš dublje da razvijaš zdrav odnos sa novcem i naviku štednje, pročitaj i [kako da konačno počneš da štediš i ne odustaneš](/blog/kako-pametno-upravljati-finansijama/), a budžet je i prvi od [7 koraka do finansijske slobode](/blog/7-koraka-do-finansijske-slobode/).
+
+A ako budžet pokaže da problem stvarno nije curenje nego premali prihod, vredi pogledati i konkretne načine dodatne zarade — od [biznisa prodaje majica preko interneta](/blog/kako-zapoceti-biznis-prodaje-majica-preko-interneta/) do trezvenog pregleda [šta je realno, a šta prazna priča kod zarade preko interneta](/blog/kako-funkcionise-zarada-od-klikova/).
 
 ## Suština
 

@@ -1,9 +1,27 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const aboutSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'O nama — Investiraj Pametno',
+  url: 'https://investirajpametno.rs/o-nama/',
+  inLanguage: 'sr-Latn-RS',
+  about: { '@type': 'Organization', name: 'Investiraj Pametno', url: 'https://investirajpametno.rs/' },
+};
+const aboutBreadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Početna', item: 'https://investirajpametno.rs/' },
+    { '@type': 'ListItem', position: 2, name: 'O nama', item: 'https://investirajpametno.rs/o-nama/' },
+  ],
+};
 ---
 <BaseLayout
   title="O nama — Investiraj Pametno"
   description="Ko stoji iza Investiraj Pametno i zašto pričamo o parama onako kako većina neće. Misija, vrednosti i pristup ličnim finansijama u Srbiji."
+  jsonLd={[aboutSchema, aboutBreadcrumb]}
 >
   <header class="page-head">
     <div class="container narrow">
@@ -35,7 +53,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
       <h2>Kako ti pomažemo</h2>
       <p>
-        Kroz tekstove koji ti ne laskaju, kroz jasan plan od <a href="/blog/7-koraka-do-finansijske-slobode">7 koraka</a>
+        Kroz tekstove koji ti ne laskaju, kroz jasan plan od <a href="/blog/7-koraka-do-finansijske-slobode/">7 koraka</a>
         i kroz priče iz stvarnog života — bez fensi žargona koji te samo zbunjuje. Cilj je
         jednostavan: da posle svakog teksta znaš tačno šta da uradiš sledeće.
       </p>
@@ -46,7 +64,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       </blockquote>
 
       <p>Spreman? Onda nemoj da odlažeš.</p>
-      <p><a href="/blog/7-koraka-do-finansijske-slobode" class="btn btn-primary">Kreni od 7 koraka →</a></p>
+      <p><a href="/blog/7-koraka-do-finansijske-slobode/" class="btn btn-primary">Kreni od 7 koraka →</a></p>
     </div>
   </section>
 </BaseLayout>

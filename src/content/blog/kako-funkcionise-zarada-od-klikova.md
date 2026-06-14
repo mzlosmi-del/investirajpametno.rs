@@ -50,9 +50,9 @@ To nije prihod — to je trošenje najvrednije stvari koju imaš (vremena) za si
 
 - **Visok prag za isplatu** — mnogi traže da skupiš relativno velik iznos pre nego što išta vidiš, pa odustaneš pre toga.
 - **Sajtovi koji nestanu** — skupiš „zaradu”, a platforma se ugasi.
-- **Šeme sa članarinom** — traže da *ti* platiš unapred „za veći nivo zarade”. To je klasična crvena zastavica; više o prepoznavanju takvih obećanja u tekstu [investiranje nije kockanje](/blog/investiranje-nije-kockanje).
+- **Šeme sa članarinom** — traže da *ti* platiš unapred „za veći nivo zarade”. To je klasična crvena zastavica; više o prepoznavanju takvih obećanja u tekstu [investiranje nije kockanje](/blog/investiranje-nije-kockanje/).
 
-Pravilo je jednostavno: ako nešto traži da uplatiš unapred da bi „zaradio”, ili obećava ozbiljne pare za nula veštine — skloni se.
+Pravilo je jednostavno: ako nešto traži da uplatiš unapred da bi „zaradio”, ili obećava ozbiljne pare za nula veštine — skloni se. Ako tražiš dodatnu zaradu koja zaista može da naraste, daleko je bolji pravi mali biznis — na primer [prodaja majica preko interneta](/blog/kako-zapoceti-biznis-prodaje-majica-preko-interneta/) — nego kliktanje tuđih reklama za stotinke.
 
 ## Kako se zapravo zarađuje od reklama
 
@@ -70,10 +70,10 @@ Evo poente celog teksta. Ono što potrošiš na klikanje stotinki, isto to vreme
 
 - **U veštinu** koja diže tvoju zaradu na poslu ili otvara honorarni rad.
 - **U sopstveni sadržaj** koji vremenom radi za tebe.
-- **U red u ličnim finansijama** — jer ono što već zarađuješ često „curi” kroz nepraćen budžet. Kako to da zatvoriš piše u tekstu [novac i budžet](/blog/novac-i-budzet).
-- **U ulaganje** onoga što odvojiš, da i mali iznosi rade — pregled opcija je u vodiču [gde uložiti novac u Srbiji](/blog/gde-uloziti-novac).
+- **U red u ličnim finansijama** — jer ono što već zarađuješ često „curi” kroz nepraćen budžet. Kako to da zatvoriš piše u tekstu [novac i budžet](/blog/novac-i-budzet/).
+- **U ulaganje** onoga što odvojiš, da i mali iznosi rade — pregled opcija je u vodiču [gde uložiti novac u Srbiji](/blog/gde-uloziti-novac/).
 
-Drugim rečima: umesto da juriš stotinke po kliku, gradi nešto što raste. Šira slika zašto to dugoročno pobeđuje je u tekstu [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno).
+Drugim rečima: umesto da juriš stotinke po kliku, gradi nešto što raste. Šira slika zašto to dugoročno pobeđuje je u tekstu [zašto je investiranje bitno](/blog/zasto-je-investiranje-bitno/).
 
 > **Napomena:** ovaj tekst je informativnog karaktera. Cilj nije da te obeshrabri da zarađuješ preko interneta, nego da razlikuješ realne prilike od gubljenja vremena i prevara.
 

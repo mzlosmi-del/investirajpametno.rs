@@ -1,10 +1,28 @@
 ---
 title: "Novac i štednja: kako da konačno počneš da štediš (i ne odustaneš)"
-description: "Štednja ne pada s neba — ona je navika. Evo konkretnih, dokazanih trikova kako da svaki mesec odvojiš nešto sa strane, čak i kad ti se čini da nemaš od čega."
+seoTitle: "Kako početi da štediš (i ne odustaneš)"
+description: "Štednja ne pada s neba — ona je navika. Konkretni, dokazani trikovi kako da svaki mesec odvojiš nešto sa strane, čak i kad ti se čini da nemaš od čega. Plati prvo sebi, automatizuj i kreni od malog."
 pubDate: 2025-12-20
+updatedDate: 2026-06-14
 category: "Štednja"
-tags: ["štednja", "navike", "lične finansije"]
-legacyUrls: ["/blog/novac-i-stednja-kako-pametno-upravljati-svojim-finansijama/"]
+tags:
+  - "kako štedeti"
+  - "kako početi da štediš"
+  - "štednja"
+  - "plati prvo sebi"
+  - "navike"
+  - "lične finansije"
+legacyUrls:
+  - "/blog/novac-i-stednja-kako-pametno-upravljati-svojim-finansijama/"
+faq:
+  - q: "Koliko novca treba da štedim mesečno?"
+    a: "Dobar orijentir je oko 20% neto prihoda, po pravilu 50/30/20. Ali na početku je iznos manje važan od navike. Bolje je da odvajaš i 10% redovno nego da čekaš „bolje vreme” i ne počneš nikad. Procenat povećavaš kako rastu prihodi i kako se rešavaš dugova."
+  - q: "Kako da štedim ako mi ništa ne ostane do kraja meseca?"
+    a: "Okreni redosled. Većina prvo potroši pa štedi ono što ostane — a ne ostane ništa. Plati prvo sebi: čim ti legne plata, odmah skloni deo na stranu, pre nego što počneš da trošiš. Najlakše preko trajnog naloga koji to radi automatski na dan isplate."
+  - q: "Gde da držim ono što uštedim?"
+    a: "Novac koji ti je rezerva za hitne slučajeve drži na dostupnom štednom računu, odvojeno od tekućeg, da ga ne diraš. Tek kad izgradiš hitnu rezervu i otplatiš skupe dugove, višak koji ti ne treba godinama ima smisla ulagati da ne bi ga jela inflacija."
+  - q: "Da li je bolje prvo štedeti ili otplaćivati dugove?"
+    a: "Prvo sakupi malu početnu rezervu (oko 1.000 evra), pa onda agresivno napadaj skupe dugove (kartice, minus, keš krediti), a tek zatim gradi punu rezervu i ulažeš. Bez ikakve rezerve, prvi nepredviđeni trošak te ionako vraća u nove dugove."
 ---
 
 Svi znaju da treba da štede. Skoro niko ne štedi. Pa gde puca?
@@ -31,6 +49,12 @@ Zašto to radi? Zato što ne moraš svaki mesec da donosiš odluku i da se bori�
 
 Pogrešno. Poenta na početku nije iznos — poenta je da izgradiš naviku. Bolje je da štediš malo svaki mesec dve godine, nego da čekaš „kad budem imao više" i ne počneš nikad. Iznos ćeš povećavati kako rasteš. Navika je ono što ti treba odmah.
 
+## Napravi budžet da znaš odakle krećeš
+
+Ne možeš da štediš ono što ne vidiš. Pre nego što odrediš koliko odvajaš, treba ti slika gde ti novac odlazi — a to ti daje [kućni budžet koji napraviš za pola sata](/blog/novac-i-budzet/).
+
+Najpoznatiji okvir je **pravilo 50/30/20**: otprilike 50% prihoda na potrebe, 30% na želje i 20% na štednju i otplatu dugova. Nije sveto pismo — prilagodi procente sebi, ali zadrži logiku da štednja ima fiksno, unapred rezervisano mesto.
+
 ## Napadni rupe kroz koje ti curi novac
 
 Otvori izvod sa računa za prošli mesec i budi brutalno iskren:
@@ -40,6 +64,12 @@ Otvori izvod sa računa za prošli mesec i budi brutalno iskren:
 - Koliko sitnih kupovina koje sutradan i ne pamtiš?
 
 Nisu problem velike kupovine — njih retko praviš. Problem su one male, svakodnevne, koje se skupljaju. Tu je tvoja štednja, samo curi.
+
+## Čemu služi to što uštediš
+
+Štednja nije sama sebi cilj — ona je gorivo za sledeće korake. Prvih nekoliko plata koje odvojiš idu u [hitnu rezervu za crne dane](/blog/hitna-rezerva-fond-za-crne-dane/), tvoj zaštitni jastuk od 3 do 6 meseci troškova.
+
+Tek kad to imaš i kad nemaš skupe dugove, novac koji ti ne treba godinama vredi pustiti da radi — jer [dok pare stoje na računu, inflacija ih tiho jede](/blog/zasto-je-investiranje-bitno/). Ceo taj redosled — rezerva, dugovi, pa ulaganje — sklopljen je u [plan od 7 koraka do finansijske slobode](/blog/7-koraka-do-finansijske-slobode/).
 
 ## Štednja nije odricanje, nego biranje
 

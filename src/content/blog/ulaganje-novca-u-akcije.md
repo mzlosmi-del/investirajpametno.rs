@@ -56,7 +56,7 @@ Iz Srbije danas možeš da kupiš akcije Epla, Majkrosofta ili globalni ETF lak�
 
 Akcija je **vlasnički udeo u kompaniji**. Kad kupiš akciju Epla, ti si bukvalno postao (sitni) suvlasnik Epla — imaš pravo na deo dobiti koju firma deli kroz dividende i profitiraš ako vrednost firme raste. To je suštinska razlika u odnosu na kladionicu: ne kladiš se na ishod, nego **postaješ vlasnik produktivne imovine**.
 
-Zato i ima smisla. Dok ti [pare na tekućem računu polako jede inflacija](/blog/zasto-je-investiranje-bitno), dobre kompanije rastu, zarađuju i taj rast dele sa svojim vlasnicima — a jedan od njih možeš da budeš i ti.
+Zato i ima smisla. Dok ti [pare na tekućem računu polako jede inflacija](/blog/zasto-je-investiranje-bitno/), dobre kompanije rastu, zarađuju i taj rast dele sa svojim vlasnicima — a jedan od njih možeš da budeš i ti.
 
 ## Korak 1: Izaberi brokera
 
@@ -79,9 +79,9 @@ Verifikacija traje od par minuta do par dana. Dok čekaš, pročitaj uslove: koj
 
 Kad ti je nalog spreman, uplaćuješ novac (obično bankovnim transferom) i — to je to, možeš da kupuješ.
 
-Savet za početak: **ne kupuj pojedinačne akcije dok ne naučiš.** Kreni od širokog **indeksnog ETF-a** koji prati celo tržište (na primer globalni indeks ili indeks velikih američkih kompanija). Time odmah razbacuješ rizik na stotine firmi umesto da se kockaš na jednu. O tome zašto je [diversifikacija obavezna pišemo detaljno ovde](/blog/diversifikacija-portfolija), a [poređenje fondova i ETF-ova je u posebnom tekstu](/blog/zasto-ne-investirati-u-fondove).
+Savet za početak: **ne kupuj pojedinačne akcije dok ne naučiš.** Kreni od širokog **indeksnog ETF-a** koji prati celo tržište (na primer globalni indeks ili indeks velikih američkih kompanija). Time odmah razbacuješ rizik na stotine firmi umesto da se kockaš na jednu. O tome zašto je [diversifikacija obavezna pišemo detaljno ovde](/blog/diversifikacija-portfolija/), a [poređenje fondova i ETF-ova je u posebnom tekstu](/blog/zasto-ne-investirati-u-fondove/).
 
-Ako tek skupljaš prvi ulog, pogledaj i [šta pametno da uradiš sa prvih 1.000 evra](/blog/gde-uloziti-1000-evra) — redosled poteza je tu važniji od izbora akcije.
+Ako tek skupljaš prvi ulog, pogledaj i [šta pametno da uradiš sa prvih 1.000 evra](/blog/gde-uloziti-1000-evra/) — redosled poteza je tu važniji od izbora akcije.
 
 ![Kako kupiti akcije iz Srbije — tok od izbora brokera, preko verifikacije naloga i uplate, do kupovine ETF-a](../../assets/blog/akcije-dijagram.svg)
 
@@ -99,19 +99,19 @@ Detalje i obrasce uvek proveri na zvaničnom izvoru — <a href="https://www.pur
 ## Greške koje skoro svi prave na početku
 
 - **Ulažu sve odjednom, pa paniče kad padne.** Ulaži postepeno i redovno — taj pristup se zove „prosečna cena" i štiti te od lošeg tajminga.
-- **Jure „vruće" akcije iz Tiktok preporuka.** To nije strategija, to je [kockanje prerušeno u investiranje](/blog/investiranje-nije-kockanje).
+- **Jure „vruće" akcije iz Tiktok preporuka.** To nije strategija, to je [kockanje prerušeno u investiranje](/blog/investiranje-nije-kockanje/).
 - **Prodaju u panici čim cena padne.** Pad je normalan. Prodaja u panici je način da loš dan pretvoriš u trajni gubitak.
-- **Bulje u cene svaki dan.** Što češće gledaš portfolio, [to ćeš lošije investirati](/blog/redovno-pracenje-cena-akcija).
-- **Čekaju „savršen trenutak".** [Savršen trenutak ne postoji](/blog/pravo-vreme-za-investiranje). Najbolji trenutak za početak je bio pre deset godina. Drugi najbolji je danas.
+- **Bulje u cene svaki dan.** Što češće gledaš portfolio, [to ćeš lošije investirati](/blog/redovno-pracenje-cena-akcija/).
+- **Čekaju „savršen trenutak".** [Savršen trenutak ne postoji](/blog/pravo-vreme-za-investiranje/). Najbolji trenutak za početak je bio pre deset godina. Drugi najbolji je danas.
 
 ## Pre prve kupovine: dve provere
 
 Pre nego što uplatiš prvi evro na brokerski nalog, uveri se da si rešio temelje:
 
-1. **Imaš li [rezervu za hitne slučajeve](/blog/hitna-rezerva-fond-za-crne-dane)?** Ne ulažeš poslednje pare koje imaš — jer ako ti zatrebaju baš kad tržište padne, moraš da prodaješ na gubitku.
+1. **Imaš li [rezervu za hitne slučajeve](/blog/hitna-rezerva-fond-za-crne-dane/)?** Ne ulažeš poslednje pare koje imaš — jer ako ti zatrebaju baš kad tržište padne, moraš da prodaješ na gubitku.
 2. **Imaš li skupe dugove?** Otplata kredita sa 15% kamate ti je zagarantovan „prinos" od 15%. Nijedna akcija ti to ne garantuje.
 
-Ako želiš da uđeš dublje u logiku biranja kvalitetnih firmi po poštenoj ceni, pročitaj [investiranje po vrednosti](/blog/investiranje-po-vrednosti).
+Ako želiš da uđeš dublje u logiku biranja kvalitetnih firmi po poštenoj ceni, pročitaj [investiranje po vrednosti](/blog/investiranje-po-vrednosti/).
 
 ## Suština
 

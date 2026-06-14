@@ -53,7 +53,7 @@ Pre investiranja, pre ubrzane otplate dugova, pre svega — treba ti rezerva za 
 
 Zato što život ne čeka da ti budeš spreman. Kvarovi, bolesti, otkazi, neočekivani troškovi — to nije pitanje „da li", nego „kada". I ako te zateknu bez rezerve, jedini izlaz su dugovi. A dugovi te vraćaju na početak, ili gore.
 
-Rezerva je zid između jednog lošeg dana i finansijske katastrofe. Zato je ona i [prvi korak ka finansijskoj slobodi](/blog/7-koraka-do-finansijske-slobode), pre svake investicije.
+Rezerva je zid između jednog lošeg dana i finansijske katastrofe. Zato je ona i [prvi korak ka finansijskoj slobodi](/blog/7-koraka-do-finansijske-slobode/), pre svake investicije.
 
 ## Koliko ti treba
 
@@ -62,7 +62,7 @@ Radi se u dve faze:
 - **Prva rezerva: oko 1.000 evra.** To je početni jastuk koji sklanjaš pre nego što napadneš dugove. Pokriva većinu „malih katastrofa" da te ne vrate u minus.
 - **Puna rezerva: 3 do 6 meseci troškova.** To gradiš kasnije, kad rešiš skupe dugove. Ovo te čuva od velikih udara — gubitka posla, duže bolesti.
 
-Sedi i izračunaj koliko ti tačno treba mesečno da preživiš — ako još nemaš tu cifru, [napravi budžet za 30 minuta](/blog/novac-i-budzet) pa će ti sama iskočiti. Pomnoži taj mesečni minimum sa tri do šest. To je tvoj cilj.
+Sedi i izračunaj koliko ti tačno treba mesečno da preživiš — ako još nemaš tu cifru, [napravi budžet za 30 minuta](/blog/novac-i-budzet/) pa će ti sama iskočiti. Pomnoži taj mesečni minimum sa tri do šest. To je tvoj cilj.
 
 ![Hitna rezerva — dve faze: prvo jastuk od oko 1.000 evra, pa puna rezerva od 3 do 6 meseci troškova](../../assets/blog/rezerva-dijagram.svg)
 
@@ -71,7 +71,7 @@ Sedi i izračunaj koliko ti tačno treba mesečno da preživiš — ako još nem
 Rezerva nije investicija i ne sme da bude. Pravila su jednostavna:
 
 - **Mora da bude dostupna odmah.** Ne vredi ti rezerva zarobljena u nečemu što ne možeš brzo da unovčiš.
-- **Mora da bude sigurna.** Ne ulažeš rezervu u akcije — ako ti zatreba baš kad [tržište padne, gotov si](/blog/redovno-pracenje-cena-akcija).
+- **Mora da bude sigurna.** Ne ulažeš rezervu u akcije — ako ti zatreba baš kad [tržište padne, gotov si](/blog/redovno-pracenje-cena-akcija/).
 - **Drži je u evrima.** Zaštita od inflacije i pada dinara. Istorija nas je tome naučila.
 
 Najbolje mesto je običan, dostupan štedni račun. Dosadno? Da. Ali rezerva i treba da bude dosadna — njen posao je da bude tu kad zatreba, ne da pravi pare.
@@ -82,7 +82,7 @@ Jedna korisna sigurnosna mreža: štednja u bankama u Srbiji je **osigurana do 5
 
 Najveća greška je preskočiti ovaj korak i odmah jurnuti u investiranje jer je „uzbudljivije". A onda, kad život udari, prodaješ investicije u najgorem trenutku, na gubitku, samo da pokriješ hitan trošak.
 
-Rezerva ti omogućava da [investiraš mirno](/blog/zasto-je-investiranje-bitno) — jer znaš da te jedan loš dan neće srušiti. Bez nje, ti investiraš na klimavim nogama, i prvi pad te izbaci iz igre.
+Rezerva ti omogućava da [investiraš mirno](/blog/zasto-je-investiranje-bitno/) — jer znaš da te jedan loš dan neće srušiti. Bez nje, ti investiraš na klimavim nogama, i prvi pad te izbaci iz igre.
 
 ## Suština
 

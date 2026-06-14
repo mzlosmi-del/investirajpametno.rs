@@ -64,7 +64,7 @@ To znači da za skoro svaku firmu možeš besplatno da vidiš:
 - koliko ima **obaveza** (dugovanja),
 - da li uopšte **uredno predaje** izveštaje.
 
-Sve to sa telefona, bez odlaska na šalter. Ovo je [još jedan besplatan državni alat](/blog/ekatastar-provera-vlasnika-nekretnine) koji ti može uštedeti hiljade evra — kao što kod nekretnina koristiš eKatastar za proveru vlasnika i hipoteke, ovde država već ima sve podatke o firmama, samo treba znati gde da gledaš.
+Sve to sa telefona, bez odlaska na šalter. Ovo je [još jedan besplatan državni alat](/blog/ekatastar-provera-vlasnika-nekretnine/) koji ti može uštedeti hiljade evra — kao što kod nekretnina koristiš eKatastar za proveru vlasnika i hipoteke, ovde država već ima sve podatke o firmama, samo treba znati gde da gledaš.
 
 ## Zašto je ovo zlato vredno
 
@@ -79,7 +79,7 @@ Najčešće situacije u kojima ti APR spasava novac:
 - **Pre zaposlenja.** Pre nego što daš otkaz i pređeš u novu firmu, vidiš da li ona uopšte stoji dobro.
 - **Provera konkurencije.** Vidiš koliko konkurent prihoduje i kako mu se kreće posao.
 
-Ista logika kao kad [pre kupovine akcija gledaš poslovanje kompanije](/blog/ulaganje-novca-u-akcije) — samo što su ovde u pitanju domaće, neretko sasvim male firme.
+Ista logika kao kad [pre kupovine akcija gledaš poslovanje kompanije](/blog/ulaganje-novca-u-akcije/) — samo što su ovde u pitanju domaće, neretko sasvim male firme.
 
 ## Šta ti treba pre pretrage
 
@@ -146,10 +146,10 @@ APR je odličan za **brzu, besplatnu proveru**, ali budi svestan granica:
 - **Paušalno oporezovani preduzetnici** uglavnom nemaju obavezu istog izveštavanja, pa za njih nećeš naći klasičan bilans.
 - Izveštaj ti pokazuje **brojke, ali ne i priču iza njih** — gubitak može biti zbog jednokratne investicije, a ne propadanja.
 
-Za **ozbiljnu odluku** (veći ulog, veliki ugovor) kombinuj APR sa drugim proverama: opšta pretraga statusa firme, [provera nekretnina i tereta preko eKatastra](/blog/ekatastar-provera-vlasnika-nekretnine) ako je u igri imovina, i po potrebi savet knjigovođe ili advokata. Pravilo je isto kao svuda u [pametnom upravljanju novcem](/blog/kako-pametno-upravljati-finansijama): **screening sam, ekspert pred potpis.**
+Za **ozbiljnu odluku** (veći ulog, veliki ugovor) kombinuj APR sa drugim proverama: opšta pretraga statusa firme, [provera nekretnina i tereta preko eKatastra](/blog/ekatastar-provera-vlasnika-nekretnine/) ako je u igri imovina, i po potrebi savet knjigovođe ili advokata. Pravilo je isto kao svuda u [pametnom upravljanju novcem](/blog/kako-pametno-upravljati-finansijama/): **screening sam, ekspert pred potpis.**
 
 ## Suština
 
 Informacija koja te može spasti od loše investicije ili lošeg posla stoji ti **besplatno na dohvat ruke**. Ljudi gube hiljade evra jer su lenji da provere ono što je javno.
 
-Pre nego što daš pare ili potpišeš ugovor — otvori APR, ukucaj firmu i pogledaj brojke. Pet minuta provere može da ti sačuva godinu nerava. A kada već gradiš naviku da proveravaš pre nego što rizikuješ, [sledeći korak je da znaš kako da pametno raspoređuješ taj novac](/blog/7-koraka-do-finansijske-slobode).
+Pre nego što daš pare ili potpišeš ugovor — otvori APR, ukucaj firmu i pogledaj brojke. Pet minuta provere može da ti sačuva godinu nerava. A kada već gradiš naviku da proveravaš pre nego što rizikuješ, [sledeći korak je da znaš kako da pametno raspoređuješ taj novac](/blog/7-koraka-do-finansijske-slobode/).

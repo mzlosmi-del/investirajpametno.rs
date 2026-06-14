@@ -72,7 +72,7 @@ I tu „5,4%" počinje da se topi.
 
 Evo šta jede tvoj prinos, a retko ko ga ubroji unapred:
 
-- **Porez na prihod od izdavanja.** Nije opcioni. Plaćaš ga na kiriju i moraš da ga prijaviš. Više o tome niže.
+- **Porez na prihod od izdavanja.** Nije opcioni. Plaćaš ga na kiriju i moraš da ga prijaviš [Poreskoj upravi](https://www.purs.gov.rs/). Više o tome niže.
 - **Prazni meseci.** Niko ti ne garantuje 12 izdatih meseci godišnje. Ako ti stan stoji prazan mesec-dva između stanara, to je direktan minus na prinos.
 - **Održavanje i popravke.** Bojler, klima, šporet, krečenje, vodoinstalater. Stvari se kvare, a ti plaćaš.
 - **Trošak ulaganja na početku.** Stan se retko izdaje „kakav jeste" — namештaj, beli tehnika, sređivanje. To su hiljade evra pre prve kirije.
@@ -156,32 +156,32 @@ Ako tražiš nešto bliže „pasivnom" — dugoročno. Ako si spreman da to tre
 
 ## Kada investiranje u nekretnine IMA smisla
 
-- Kad imaš **ozbiljniji kapital** i nakon kupovine ti i dalje ostaje [rezerva za crne dane](/blog/hitna-rezerva-fond-za-crne-dane).
+- Kad imaš **ozbiljniji kapital** i nakon kupovine ti i dalje ostaje [rezerva za crne dane](/blog/hitna-rezerva-fond-za-crne-dane/).
 - Kad ti taj novac **ne treba uskoro** — nekretnine nisu likvidne, ne prodaješ pola stana kad zagusti.
 - Kad si spreman na **obaveze** izdavanja: stanare, popravke, papirologiju.
-- Kad ti je nekretnina **deo** [diversifikovanog portfolija](/blog/diversifikacija-portfolija), a ne sve što imaš.
+- Kad ti je nekretnina **deo** [diversifikovanog portfolija](/blog/diversifikacija-portfolija/), a ne sve što imaš.
 
 ## Kada NEMA smisla
 
 - Kad bi za kupovinu morao da se **zadužiš preko glave** i ostaneš bez ikakve rezerve.
 - Kad ti je stan **jedina** investicija — sva jaja u jednoj cigli je rizik isto kao sva jaja u jednoj akciji.
 - Kad kupuješ „jer svi kupuju" i „jer cigla ne propada", bez ijednog izračunatog broja.
-- Kad još nisi rešio osnove: ako imaš [skupe dugove](/blog/7-koraka-do-finansijske-slobode) ili nemaš rezervu, nekretnina čeka.
+- Kad još nisi rešio osnove: ako imaš [skupe dugove](/blog/7-koraka-do-finansijske-slobode/) ili nemaš rezervu, nekretnina čeka.
 
 ## Najčešće greške pri kupovini investicione nekretnine
 
 1. **Računanje samo bruto prinosa.** Već smo videli kako se „5%" istopi u 3,5%.
 2. **Zanemarivanje poreza i troškova.** Najskuplja vrsta optimizma.
 3. **Kupovina iz emocije.** „Sviđa mi se" je razlog za stan u kom živiš, ne za investiciju.
-4. **Preplaćivanje.** Najbolja nekretnina je loša investicija ako je preplatiš — isto kao kod [vrednosnog investiranja u akcije](/blog/investiranje-po-vrednosti).
+4. **Preplaćivanje.** Najbolja nekretnina je loša investicija ako je preplatiš — isto kao kod [vrednosnog investiranja u akcije](/blog/investiranje-po-vrednosti/).
 5. **Sav novac u jednu nekretninu, bez rezerve.** Jedan veliki kvar i nemaš čime da ga platiš.
 6. **Loša procena stanara.** Jedan problematičan stanar ti pojede prinos cele godine.
 
 ## Nekretnine ili akcije? Iskren odgovor
 
-Ovo je večita dilema, i već smo je dotakli u tekstu [Akcije, nekretnine ili štednja](/blog/akcije-nekretnine-ili-stednja). Ukratko:
+Ovo je večita dilema, i već smo je dotakli u tekstu [Akcije, nekretnine ili štednja](/blog/akcije-nekretnine-ili-stednja/). Ukratko:
 
-- **Akcije/ETF-ovi**: dostupni sa malim novcem, likvidni, istorijski najveći dugoročni prinos, ali jače osciluju. Možeš da [kreneš iz Srbije lako](/blog/ulaganje-novca-u-akcije).
+- **Akcije/ETF-ovi**: dostupni sa malim novcem, likvidni, istorijski najveći dugoročni prinos, ali jače osciluju. Možeš da [kreneš iz Srbije lako](/blog/ulaganje-novca-u-akcije/).
 - **Nekretnine**: opipljive, mesečni prihod, štit od inflacije, ali traže veliki kapital, nisu likvidne i nose troškove i rad.
 
 Pametan odgovor skoro nikad nije „samo jedno". Većini ljudi ima smisla da **prvo grade kapital kroz redovno investiranje**, pa kad skupe ozbiljniju sumu, dodaju nekretninu kao stub stabilnosti — ne kao prvu i jedinu kocku.

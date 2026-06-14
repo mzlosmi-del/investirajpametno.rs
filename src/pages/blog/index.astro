@@ -8,10 +8,36 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
 );
 
 const categories = [...new Set(posts.map((p) => p.data.category))].sort();
+
+const blogSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: 'Investiraj Pametno — blog o ličnim finansijama',
+  url: 'https://investirajpametno.rs/blog/',
+  inLanguage: 'sr-Latn-RS',
+  description:
+    'Tekstovi o štednji, budžetu, dugovima, akcijama, ETF-ovima i nekretninama — praktično i prilagođeno životu u Srbiji.',
+  blogPost: posts.map((p) => ({
+    '@type': 'BlogPosting',
+    headline: p.data.title,
+    url: `https://investirajpametno.rs/blog/${p.id}/`,
+    datePublished: p.data.pubDate.toISOString(),
+    dateModified: (p.data.updatedDate ?? p.data.pubDate).toISOString(),
+  })),
+};
+const blogBreadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Početna', item: 'https://investirajpametno.rs/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://investirajpametno.rs/blog/' },
+  ],
+};
 ---
 <BaseLayout
-  title="Blog — Investiraj Pametno"
-  description="Tekstovi o štednji, investiranju, dugovima i finansijskoj slobodi. Praktično, direktno i prilagođeno životu u Srbiji."
+  title="Blog o ličnim finansijama i investiranju u Srbiji"
+  description="Tekstovi o štednji, budžetu, dugovima, akcijama, ETF-ovima i nekretninama. Praktično, direktno i prilagođeno životu u Srbiji — bez magije i bez kockanja."
+  jsonLd={[blogSchema, blogBreadcrumb]}
 >
   <header class="page-head">
     <div class="container">
@@ -37,7 +63,7 @@ const categories = [...new Set(posts.map((p) => p.data.category))].sort();
         <div class="grid">
           {posts.map((p) => (
             <ArticleCard
-              href={`/blog/${p.id}`}
+              href={`/blog/${p.id}/`}
               title={p.data.title}
               description={p.data.description}
               category={p.data.category}

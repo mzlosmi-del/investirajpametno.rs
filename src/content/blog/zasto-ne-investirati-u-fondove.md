@@ -67,9 +67,9 @@ Fondovi nisu zlo. Imaju mesto ako:
 
 Za većinu ljudi, **indeksni ETF** radi isti posao kao fond — instant diversifikacija — ali sa daleko nižim troškovima. Prati celo tržište, ne pokušava da bude pametniji od njega, i ne uzima ti masnu proviziju svake godine.
 
-Drugim rečima: dobijaš prinos tržišta, bez da plaćaš nekome da pokušava (i obično ne uspeva) da ga nadmaši. To je ista logika kao kod [diversifikacije — ne stavljaš sva jaja u jednu korpu](/blog/diversifikacija-portfolija), samo što ti ETF tu korpu daje jeftino i odmah.
+Drugim rečima: dobijaš prinos tržišta, bez da plaćaš nekome da pokušava (i obično ne uspeva) da ga nadmaši. To je ista logika kao kod [diversifikacije — ne stavljaš sva jaja u jednu korpu](/blog/diversifikacija-portfolija/), samo što ti ETF tu korpu daje jeftino i odmah.
 
-ETF kupuješ preko brokera, isto kao akcije — ceo postupak iz Srbije objasnili smo u vodiču [ulaganje novca u akcije](/blog/ulaganje-novca-u-akcije). A ako tek krećeš sa skromnim iznosom, pogledaj i [gde uložiti prvih 1.000 evra](/blog/gde-uloziti-1000-evra).
+ETF kupuješ preko brokera, isto kao akcije — ceo postupak iz Srbije objasnili smo u vodiču [ulaganje novca u akcije](/blog/ulaganje-novca-u-akcije/). A ako tek krećeš sa skromnim iznosom, pogledaj i [gde uložiti prvih 1.000 evra](/blog/gde-uloziti-1000-evra/).
 
 ## Suština
 

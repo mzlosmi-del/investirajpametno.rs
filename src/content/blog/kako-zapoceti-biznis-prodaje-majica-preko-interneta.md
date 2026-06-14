@@ -42,7 +42,7 @@ faq:
     a: "Pogrešno pitanje na startu. Ljudi misle da je teško napraviti majicu, a teško je doći do kupaca. Bez jasne niše i marketinga proizvodi stoje okačeni bez prodaje, a trošak oglasa pojede tanku maržu."
 ---
 
-„Okačiš par dizajna, podeliš link i pare kapuju dok spavaš” — tako **biznis prodaje majica preko interneta** izgleda u rilsovima. Stvarnost je drugačija, ali ne i loša: ovo jeste legitiman način dodatne zarade, samo ako uđeš u njega kao u posao, sa brojkama, a ne kao u lutriju. Hajde trezveno, iz ugla novca.
+„Okačiš par dizajna, podeliš link i pare kapuju dok spavaš” — tako **biznis prodaje majica preko interneta** izgleda u rilsovima. Stvarnost je drugačija, ali ne i loša: ovo jeste legitiman način dodatne zarade, samo ako uđeš u njega kao u posao, sa brojkama, a ne kao u lutriju. Hajde trezveno, iz ugla novca. (Ako si dovde stigao tražeći laku zaradu na klik, prvo pročitaj [zašto zarada od klikova skoro nikad ne vredi truda](/blog/kako-funkcionise-zarada-od-klikova/) — pa se vrati.)
 
 ## Kako model uopšte funkcioniše
 
@@ -69,7 +69,7 @@ Ako za svaku prodaju potrošiš na oglase koliko i zaradiš marže, vrtiš se u 
 - **Koliko te košta jedan kupac** (trošak oglasa po prodaji).
 - **Koliko ti ostane po majici** (marža).
 
-Ako je marža veća od troška sticanja kupca — imaš biznis. Ako nije — imaš skup hobi. Ova logika „prati brojke, pa tek onda ubrzaj” ista je kao u ozbiljnom ulaganju; o tome zašto se ne ulazi naslepo piše [investiranje nije kockanje](/blog/investiranje-nije-kockanje).
+Ako je marža veća od troška sticanja kupca — imaš biznis. Ako nije — imaš skup hobi. Ova logika „prati brojke, pa tek onda ubrzaj” ista je kao u ozbiljnom ulaganju; o tome zašto se ne ulazi naslepo piše [investiranje nije kockanje](/blog/investiranje-nije-kockanje/).
 
 ## Niša je sve
 
@@ -89,4 +89,4 @@ Najčešća razlika između prodavnice koja radi i one koja ćuti nije dizajn ne
 
 Može da se isplati — ali ne kao „pasivni” novac iz reklama, nego kao mali biznis koji traži dizajn, marketing i praćenje brojki. Ako te to privlači, kreni malo, testiraj nišu i meri maržu naspram troška kupca pre nego što uložiš ozbiljnije.
 
-A ono što zaradiš nemoj da ostane da stoji. Bilo da je reč o majicama ili bilo kom dodatnom prihodu, sledeći korak je da taj novac usmeriš — prvo u red u budžetu, pa u ulaganje. Šira slika kako od dodatne zarade napraviti imovinu je u tekstu [7 koraka do finansijske slobode](/blog/7-koraka-do-finansijske-slobode), a pregled gde taj novac da uložiš u [gde uložiti novac u Srbiji](/blog/gde-uloziti-novac).
+A ono što zaradiš nemoj da ostane da stoji. Bilo da je reč o majicama ili bilo kom dodatnom prihodu, sledeći korak je da taj novac usmeriš — prvo u red u budžetu, pa u ulaganje. Šira slika kako od dodatne zarade napraviti imovinu je u tekstu [7 koraka do finansijske slobode](/blog/7-koraka-do-finansijske-slobode/), a pregled gde taj novac da uložiš u [gde uložiti novac u Srbiji](/blog/gde-uloziti-novac/).
