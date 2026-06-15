@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-label="Formula za obračun penzije: lični koeficijent puta penzijski staž puta vrednost opšteg boda jednako mesečna penzija, na primeru 1,2 puta 35 puta 1.674,67 jednako 70.336 dinara">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c2444"/>
+      <stop offset="100%" stop-color="#081a2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="430" fill="url(#bg)"/>
+  <g stroke="#143058" stroke-width="1" opacity="0.45">
+    <path d="M0 110 H800"/><path d="M0 300 H800"/>
+  </g>
+
+  <text x="40" y="52" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Kako se računa penzija</text>
+  <text x="40" y="76" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Tri činioca: koliko si zarađivao, koliko dugo i koliko bod vredi danas.</text>
+
+  <g font-family="Inter, system-ui, sans-serif">
+    <!-- koeficijent -->
+    <rect x="40" y="150" width="150" height="100" rx="12" fill="#0f2742" stroke="#25d49f" stroke-width="2"/>
+    <text x="115" y="184" text-anchor="middle" font-size="13" fill="#9fb3cc">Lični koeficijent</text>
+    <text x="115" y="216" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">1,2</text>
+
+    <text x="205" y="214" text-anchor="middle" font-size="34" font-weight="700" fill="#e8b71a">×</text>
+
+    <!-- staž -->
+    <rect x="220" y="150" width="150" height="100" rx="12" fill="#0f2742" stroke="#1db58a" stroke-width="2"/>
+    <text x="295" y="184" text-anchor="middle" font-size="13" fill="#9fb3cc">Penzijski staž</text>
+    <text x="295" y="216" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">35 god.</text>
+
+    <text x="385" y="214" text-anchor="middle" font-size="34" font-weight="700" fill="#e8b71a">×</text>
+
+    <!-- opšti bod -->
+    <rect x="400" y="150" width="150" height="100" rx="12" fill="#06251c" stroke="#25d49f" stroke-width="2"/>
+    <text x="475" y="184" text-anchor="middle" font-size="13" fill="#9fb3cc">Opšti bod (2026)</text>
+    <text x="475" y="216" text-anchor="middle" font-size="22" font-weight="700" fill="#4fe0b0">1.674,67</text>
+
+    <text x="565" y="214" text-anchor="middle" font-size="30" font-weight="700" fill="#e8b71a">=</text>
+
+    <!-- penzija -->
+    <rect x="580" y="150" width="180" height="100" rx="12" fill="#e8b71a"/>
+    <text x="670" y="184" text-anchor="middle" font-size="14" fill="#3a2e00">Mesečna penzija</text>
+    <text x="670" y="218" text-anchor="middle" font-size="26" font-weight="800" fill="#1a1400">70.336 din</text>
+  </g>
+
+  <text x="40" y="345" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Lični bodovi = 1,2 × 35 = 42  →  42 × 1.674,67 = 70.336 dinara</text>
+  <text x="40" y="375" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Lični koeficijent se priznaje najviše do 3,8, a staž najviše do 45 godina.</text>
+  <text x="40" y="398" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Vrednost opšteg boda raste pri svakom usklađivanju penzija.</text>
+</svg>

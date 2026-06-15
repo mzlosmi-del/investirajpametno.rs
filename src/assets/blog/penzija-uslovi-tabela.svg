@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" aria-label="Uslovi za penziju u Srbiji 2026: starosna za muškarce 65 godina i 15 godina staža, za žene 64 godine i 15 godina staža, pun staž 45 godina bez obzira na godine, prevremena 60 godina i 40 godina staža uz trajno umanjenje.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c2444"/>
+      <stop offset="100%" stop-color="#081a2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="470" fill="url(#bg)"/>
+  <g stroke="#143058" stroke-width="1" opacity="0.45">
+    <path d="M0 92 H800"/>
+  </g>
+
+  <text x="40" y="48" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Uslovi za penziju u Srbiji (2026)</text>
+  <text x="40" y="72" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Starosna granica i potreban staž — pregled po vrsti penzije.</text>
+
+  <g font-family="Inter, system-ui, sans-serif">
+    <!-- Card 1: starosna muškarci -->
+    <rect x="40" y="110" width="350" height="150" rx="12" fill="#0f2742" stroke="#25d49f" stroke-width="2"/>
+    <text x="64" y="146" font-size="13" font-weight="700" letter-spacing="1.5" fill="#25d49f">STAROSNA · MUŠKARCI</text>
+    <text x="64" y="190" font-size="32" font-weight="800" fill="#ffffff">65 godina</text>
+    <text x="64" y="224" font-size="15" fill="#9fb3cc">+ najmanje 15 godina staža</text>
+
+    <!-- Card 2: starosna žene -->
+    <rect x="410" y="110" width="350" height="150" rx="12" fill="#0f2742" stroke="#1db58a" stroke-width="2"/>
+    <text x="434" y="146" font-size="13" font-weight="700" letter-spacing="1.5" fill="#4fe0b0">STAROSNA · ŽENE (2026)</text>
+    <text x="434" y="190" font-size="32" font-weight="800" fill="#ffffff">64 godine</text>
+    <text x="434" y="224" font-size="15" fill="#9fb3cc">+ 15 god. staža · raste do 2032.</text>
+
+    <!-- Card 3: pun staž -->
+    <rect x="40" y="280" width="350" height="150" rx="12" fill="#0f2742" stroke="#25d49f" stroke-width="2"/>
+    <text x="64" y="316" font-size="13" font-weight="700" letter-spacing="1.5" fill="#25d49f">PUN STAŽ · OBA POLA</text>
+    <text x="64" y="360" font-size="32" font-weight="800" fill="#ffffff">45 god. staža</text>
+    <text x="64" y="394" font-size="15" fill="#9fb3cc">bez obzira na godine života</text>
+
+    <!-- Card 4: prevremena -->
+    <rect x="410" y="280" width="350" height="150" rx="12" fill="#0f2742" stroke="#e8b71a" stroke-width="2"/>
+    <text x="434" y="316" font-size="13" font-weight="700" letter-spacing="1.5" fill="#e8b71a">PREVREMENA STAROSNA</text>
+    <text x="434" y="360" font-size="30" font-weight="800" fill="#ffffff">60 god. + 40 staža</text>
+    <text x="434" y="394" font-size="15" fill="#9fb3cc">trajno umanjenje 0,34%/mes (do 20,4%)</text>
+  </g>
+
+  <text x="40" y="456" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#a6b6cc">Granica za žene raste 2 meseca godišnje do 2032, kada se izjednačava sa muškarcima (65). Tačan mesec proveri u Fondu PIO.</text>
+</svg>

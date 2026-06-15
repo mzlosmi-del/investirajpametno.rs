@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Kako se računa penzija u Srbiji — formula, lični koeficijent i opšti bod, sa primerima za 2026.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c2444"/>
+      <stop offset="100%" stop-color="#081a2e"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4fe0b0"/>
+      <stop offset="100%" stop-color="#1db58a"/>
+    </linearGradient>
+    <radialGradient id="coin" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#f5d65b"/>
+      <stop offset="100%" stop-color="#e8b71a"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <g stroke="#143058" stroke-width="1" opacity="0.4">
+    <path d="M0 170 H1200"/><path d="M0 340 H1200"/><path d="M0 510 H1200"/>
+  </g>
+  <circle cx="1040" cy="170" r="280" fill="#15407a" opacity="0.12"/>
+
+  <text x="80" y="216" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#25d49f">PENZIJE · INVESTIRAJ PAMETNO</text>
+
+  <text x="78" y="304" font-family="Inter, system-ui, sans-serif" font-size="62" font-weight="800" fill="#ffffff">Kako se računa</text>
+  <text x="78" y="376" font-family="Inter, system-ui, sans-serif" font-size="62" font-weight="800" fill="#ffffff">penzija u Srbiji</text>
+
+  <text x="80" y="442" font-family="Inter, system-ui, sans-serif" font-size="26" fill="#a6b6cc">Formula, lični koeficijent i opšti bod.</text>
+
+  <!-- bars: duži staž -> veća penzija -->
+  <g>
+    <rect x="812" y="410" width="56" height="110" rx="10" fill="url(#bar)"/>
+    <rect x="884" y="360" width="56" height="160" rx="10" fill="url(#bar)"/>
+    <rect x="956" y="310" width="56" height="210" rx="10" fill="url(#bar)"/>
+    <rect x="1028" y="250" width="56" height="270" rx="10" fill="url(#bar)"/>
+    <circle cx="1056" cy="246" r="40" fill="url(#coin)"/>
+    <text x="1056" y="254" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="800" fill="#3a2e00">RSD</text>
+  </g>
+  <text x="812" y="556" font-family="Inter, system-ui, sans-serif" font-size="18" fill="#9fb3cc">duži staž → veća penzija</text>
+</svg>
