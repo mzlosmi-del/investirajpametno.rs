@@ -41,6 +41,7 @@ Attribution is provided here as good practice.
 | `penzija-formula.svg` | Original — Investiraj Pametno | Branded diagram: koeficijent × staž × opšti bod = penzija |
 | `penzija-uslovi-hero.jpg` | Original — Investiraj Pametno | Branded hero: pension eligibility conditions 2026 (rasterized SVG) |
 | `penzija-uslovi-tabela.svg` | Original — Investiraj Pametno | Branded diagram: retirement age + staž conditions (2026) |
+| `uskladjivanje-penzija-formula.svg` | Original — Investiraj Pametno | Branded diagram: švajcarska formula tiers for pension indexation |
 
 Used in: `kako-investirati-u-nekretnine.md`, `ulaganje-novca-u-akcije.md`, `novac-i-budzet.md`, `gde-uloziti-1000-evra.md`, `zasto-ne-investirati-u-fondove.md`, `hitna-rezerva-fond-za-crne-dane.md`, `diversifikacija-portfolija.md`, `akcije-nekretnine-ili-stednja.md`, `porez-na-kapitalni-dobitak.md`
 

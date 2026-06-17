@@ -94,7 +94,7 @@ Opšti bod je vrednost koju država periodično određuje i koja tvoje lične bo
 
 Od početka **2026. godine vrednost opšteg boda iznosi 1.674,67 dinara**. Do tog iznosa se došlo posle redovnog usklađivanja od **12,2%**, koje je primenjeno od decembra 2025. (pre usklađivanja iznosio je 1.551,45 dinara).
 
-Ova vrednost nije zaleđena — raste pri svakom usklađivanju penzija, koje se sprovodi po takozvanoj **švajcarskoj formuli**: polovina rasta zavisi od inflacije, a polovina od rasta prosečnih zarada. Zato penzija koju izračunaš danas nije isto što ćeš primati za deset godina — i nominalni iznos i opšti bod se vremenom usklađuju.
+Ova vrednost nije zaleđena — raste pri svakom [usklađivanju penzija](/blog/uskladjivanje-penzija/), koje se sprovodi po takozvanoj **švajcarskoj formuli**: polovina rasta zavisi od inflacije, a polovina od rasta prosečnih zarada. Zato penzija koju izračunaš danas nije isto što ćeš primati za deset godina — i nominalni iznos i opšti bod se vremenom usklađuju.
 
 ## Konkretan primer obračuna
 
