@@ -42,6 +42,13 @@ Attribution is provided here as good practice.
 | `penzija-uslovi-hero.jpg` | Original — Investiraj Pametno | Branded hero: pension eligibility conditions 2026 (rasterized SVG) |
 | `penzija-uslovi-tabela.svg` | Original — Investiraj Pametno | Branded diagram: retirement age + staž conditions (2026) |
 | `uskladjivanje-penzija-formula.svg` | Original — Investiraj Pametno | Branded diagram: švajcarska formula tiers for pension indexation |
+| `prevremena-penzija-umanjenje.svg` | Original — Investiraj Pametno | Branded diagram: early-retirement penalty (0,34%/month, up to 20,4%) |
+| `penzijski-staz.svg` | Original — Investiraj Pametno | Branded diagram: what counts toward pension service years |
+| `najniza-najvisa-penzija.svg` | Original — Investiraj Pametno | Branded diagram: minimum vs maximum pension amounts (2026) |
+| `kupovina-radnog-staza.svg` | Original — Investiraj Pametno | Branded diagram: cost of buying pension service years |
+| `bruto-neto-plata.svg` | Original — Investiraj Pametno | Branded diagram: gross-to-net salary breakdown (tax + contributions) |
+| `pausalno-oporezivanje.svg` | Original — Investiraj Pametno | Branded diagram: flat-rate (paušal) taxation tiers |
+| `porez-izdavanje-stana.svg` | Original — Investiraj Pametno | Branded diagram: rental-income tax calculation |
 
 Used in: `kako-investirati-u-nekretnine.md`, `ulaganje-novca-u-akcije.md`, `novac-i-budzet.md`, `gde-uloziti-1000-evra.md`, `zasto-ne-investirati-u-fondove.md`, `hitna-rezerva-fond-za-crne-dane.md`, `diversifikacija-portfolija.md`, `akcije-nekretnine-ili-stednja.md`, `porez-na-kapitalni-dobitak.md`
 

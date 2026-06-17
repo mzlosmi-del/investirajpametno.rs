@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-label="Paušalno oporezivanje: limit prometa je 6 miliona dinara godišnje za paušalca, a ulazak u PDV sistem je na 8 miliona dinara u 12 meseci.">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c2444"/><stop offset="100%" stop-color="#081a2e"/></linearGradient></defs>
+  <rect width="800" height="340" fill="url(#bg)"/>
+  <path d="M0 92 H800" stroke="#143058" stroke-width="1" opacity="0.45"/>
+  <text x="40" y="48" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Paušalac — dva limita koja se prate</text>
+  <text x="40" y="72" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Promet određuje da li ostaješ paušalac i da li ulaziš u PDV.</text>
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="40" y="112" width="350" height="160" rx="12" fill="#0f2742" stroke="#e8b04b" stroke-width="2"/>
+    <text x="64" y="146" font-size="13" font-weight="700" letter-spacing="1.2" fill="#e8b04b">PAUŠALNI LIMIT</text>
+    <text x="64" y="190" font-size="30" font-weight="800" fill="#ffffff">6.000.000 din</text>
+    <text x="64" y="222" font-size="14" fill="#9fb3cc">Promet po kalendarskoj godini.</text>
+    <text x="64" y="248" font-size="14" fill="#9fb3cc">Preko toga → poslovne knjige.</text>
+    <rect x="410" y="112" width="350" height="160" rx="12" fill="#0f2742" stroke="#25d49f" stroke-width="2"/>
+    <text x="434" y="146" font-size="13" font-weight="700" letter-spacing="1.2" fill="#25d49f">PDV LIMIT</text>
+    <text x="434" y="190" font-size="30" font-weight="800" fill="#ffffff">8.000.000 din</text>
+    <text x="434" y="222" font-size="14" fill="#9fb3cc">U bilo kojih 12 meseci.</text>
+    <text x="434" y="248" font-size="14" fill="#9fb3cc">Preko toga → ulazak u PDV.</text>
+  </g>
+  <text x="40" y="312" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#6f83a0">Mesečni iznos poreza i doprinosa zavisi od šifre delatnosti, opštine i prosečne zarade.</text>
+</svg>

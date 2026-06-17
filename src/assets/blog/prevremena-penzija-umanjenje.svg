@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-label="Trajno umanjenje prevremene penzije: 0,34 odsto za svaki mesec ranijeg odlaska, najviše 20,4 odsto za pet godina ranije.">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c2444"/><stop offset="100%" stop-color="#081a2e"/></linearGradient></defs>
+  <rect width="800" height="430" fill="url(#bg)"/>
+  <path d="M0 92 H800" stroke="#143058" stroke-width="1" opacity="0.45"/>
+  <text x="40" y="48" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Prevremena penzija — trajno umanjenje</text>
+  <text x="40" y="72" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">0,34% za svaki mesec ranijeg odlaska · najviše 20,4%.</text>
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="40" y="112" width="350" height="140" rx="12" fill="#0f2742" stroke="#e8b04b" stroke-width="2"/>
+    <text x="64" y="146" font-size="13" font-weight="700" letter-spacing="1.2" fill="#e8b04b">USLOV (2026)</text>
+    <text x="64" y="186" font-size="26" font-weight="800" fill="#ffffff">60 godina + 40 staža</text>
+    <text x="64" y="222" font-size="14" fill="#9fb3cc">Minimum za prevremenu starosnu penziju.</text>
+    <rect x="410" y="112" width="350" height="140" rx="12" fill="#0f2742" stroke="#25d49f" stroke-width="2"/>
+    <text x="434" y="146" font-size="13" font-weight="700" letter-spacing="1.2" fill="#25d49f">MAKSIMALNO UMANJENJE</text>
+    <text x="434" y="186" font-size="26" font-weight="800" fill="#ffffff">20,4%</text>
+    <text x="434" y="222" font-size="14" fill="#9fb3cc">Za 5 godina (60 meseci) ranije.</text>
+  </g>
+  <g font-family="Inter, system-ui, sans-serif">
+    <text x="40" y="296" font-size="14" font-weight="700" fill="#c2d2e6">Koliko ranije → koliko umanjenje</text>
+    <rect x="40" y="312" width="170" height="86" rx="10" fill="#0f2742" stroke="#143058"/><text x="60" y="346" font-size="22" font-weight="800" fill="#ffffff">1 god.</text><text x="60" y="378" font-size="16" fill="#25d49f">−4,08%</text>
+    <rect x="225" y="312" width="170" height="86" rx="10" fill="#0f2742" stroke="#143058"/><text x="245" y="346" font-size="22" font-weight="800" fill="#ffffff">2 god.</text><text x="245" y="378" font-size="16" fill="#25d49f">−8,16%</text>
+    <rect x="410" y="312" width="170" height="86" rx="10" fill="#0f2742" stroke="#143058"/><text x="430" y="346" font-size="22" font-weight="800" fill="#ffffff">3 god.</text><text x="430" y="378" font-size="16" fill="#25d49f">−12,24%</text>
+    <rect x="595" y="312" width="165" height="86" rx="10" fill="#0f2742" stroke="#143058"/><text x="615" y="346" font-size="22" font-weight="800" fill="#ffffff">5 god.</text><text x="615" y="378" font-size="16" fill="#e8b04b">−20,4%</text>
+  </g>
+  <text x="40" y="420" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#6f83a0">Umanjenje je doživotno — ne ukida se ni kada napuniš godine za redovnu penziju.</text>
+</svg>

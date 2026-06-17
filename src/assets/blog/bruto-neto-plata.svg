@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-label="Od bruto plate se oduzimaju doprinosi 19,9 odsto na teret zaposlenog i porez 10 odsto na iznos iznad neoporezivih 34.221 dinara, ostatak je neto plata.">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c2444"/><stop offset="100%" stop-color="#081a2e"/></linearGradient></defs>
+  <rect width="800" height="380" fill="url(#bg)"/>
+  <path d="M0 92 H800" stroke="#143058" stroke-width="1" opacity="0.45"/>
+  <text x="40" y="48" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Od bruto do neto plate (2026)</text>
+  <text x="40" y="72" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Šta se oduzima od bruto plate na putu do računa.</text>
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="40" y="112" width="175" height="170" rx="12" fill="#0f2742" stroke="#25d49f" stroke-width="2"/>
+    <text x="60" y="144" font-size="13" font-weight="700" fill="#25d49f">BRUTO</text>
+    <text x="60" y="180" font-size="22" font-weight="800" fill="#ffffff">100%</text>
+    <text x="60" y="210" font-size="13" fill="#9fb3cc">Polazni iznos iz</text>
+    <text x="60" y="228" font-size="13" fill="#9fb3cc">ugovora o radu.</text>
+    <text x="226" y="205" font-size="28" fill="#5a7596">−</text>
+    <rect x="250" y="112" width="175" height="170" rx="12" fill="#0f2742" stroke="#e8b04b" stroke-width="2"/>
+    <text x="270" y="144" font-size="13" font-weight="700" fill="#e8b04b">DOPRINOSI</text>
+    <text x="270" y="180" font-size="22" font-weight="800" fill="#ffffff">19,90%</text>
+    <text x="270" y="210" font-size="13" fill="#9fb3cc">PIO 14% + zdrav.</text>
+    <text x="270" y="228" font-size="13" fill="#9fb3cc">5,15% + nez. 0,75%</text>
+    <text x="436" y="205" font-size="28" fill="#5a7596">−</text>
+    <rect x="460" y="112" width="175" height="170" rx="12" fill="#0f2742" stroke="#e8b04b" stroke-width="2"/>
+    <text x="480" y="144" font-size="13" font-weight="700" fill="#e8b04b">POREZ 10%</text>
+    <text x="480" y="180" font-size="20" font-weight="800" fill="#ffffff">na višak</text>
+    <text x="480" y="210" font-size="13" fill="#9fb3cc">iznad neoporezivih</text>
+    <text x="480" y="228" font-size="13" fill="#9fb3cc">34.221 din.</text>
+    <text x="646" y="205" font-size="28" fill="#5a7596">=</text>
+    <rect x="668" y="112" width="92" height="170" rx="12" fill="#13314f" stroke="#25d49f" stroke-width="2"/>
+    <text x="688" y="144" font-size="13" font-weight="700" fill="#25d49f">NETO</text>
+    <text x="682" y="184" font-size="18" font-weight="800" fill="#ffffff">na ruke</text>
+  </g>
+  <text x="40" y="330" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#9fb3cc">Poslodavac povrh bruta plaća još 15,15% doprinosa (PIO 10% + zdravstvo 5,15%).</text>
+  <text x="40" y="362" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#6f83a0">Stope i neoporezivi iznos važe za 2026. Zvaničan obračun: Poreska uprava.</text>
+</svg>

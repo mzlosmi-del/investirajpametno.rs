@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" role="img" aria-label="Najniža penzija u Srbiji 2026 oko 31.092 dinara, prosečna oko 56.848 dinara, najviša 286.368 dinara.">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c2444"/><stop offset="100%" stop-color="#081a2e"/></linearGradient></defs>
+  <rect width="800" height="360" fill="url(#bg)"/>
+  <path d="M0 92 H800" stroke="#143058" stroke-width="1" opacity="0.45"/>
+  <text x="40" y="48" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Penzije u Srbiji 2026 — raspon</text>
+  <text x="40" y="72" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#a6b6cc">Od garantovanog minimuma do zakonskog maksimuma.</text>
+  <g font-family="Inter, system-ui, sans-serif">
+    <rect x="40" y="112" width="230" height="210" rx="12" fill="#0f2742" stroke="#5a7596" stroke-width="2"/>
+    <text x="62" y="146" font-size="13" font-weight="700" letter-spacing="1.2" fill="#c2d2e6">NAJNIŽA</text>
+    <text x="62" y="196" font-size="30" font-weight="800" fill="#ffffff">31.092</text>
+    <text x="62" y="222" font-size="14" fill="#9fb3cc">din (zaposleni)</text>
+    <text x="62" y="262" font-size="13" fill="#9fb3cc">Poljoprivrednici:</text>
+    <text x="62" y="282" font-size="13" fill="#9fb3cc">24.443 din</text>
+    <rect x="285" y="112" width="230" height="210" rx="12" fill="#0f2742" stroke="#e8b04b" stroke-width="2"/>
+    <text x="307" y="146" font-size="13" font-weight="700" letter-spacing="1.2" fill="#e8b04b">PROSEČNA</text>
+    <text x="307" y="196" font-size="30" font-weight="800" fill="#ffffff">56.848</text>
+    <text x="307" y="222" font-size="14" fill="#9fb3cc">din (april 2026)</text>
+    <text x="307" y="262" font-size="13" fill="#9fb3cc">Tipičan iznos za</text>
+    <text x="307" y="282" font-size="13" fill="#9fb3cc">većinu penzionera.</text>
+    <rect x="530" y="112" width="230" height="210" rx="12" fill="#0f2742" stroke="#25d49f" stroke-width="2"/>
+    <text x="552" y="146" font-size="13" font-weight="700" letter-spacing="1.2" fill="#25d49f">NAJVIŠA</text>
+    <text x="552" y="196" font-size="30" font-weight="800" fill="#ffffff">286.368</text>
+    <text x="552" y="222" font-size="14" fill="#9fb3cc">din</text>
+    <text x="552" y="262" font-size="13" fill="#9fb3cc">45 god. staža, LK 3,8</text>
+    <text x="552" y="282" font-size="13" fill="#9fb3cc">— svega ~85 ljudi.</text>
+  </g>
+  <text x="40" y="348" font-family="Inter, system-ui, sans-serif" font-size="12" fill="#6f83a0">Iznosi se menjaju pri svakom usklađivanju. Zvaničan podatak: Fond PIO.</text>
+</svg>

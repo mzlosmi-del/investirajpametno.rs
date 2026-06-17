@@ -84,9 +84,9 @@ Zbog toga sistem nije nepravedan prema nekome ko je radio u doba visoke ili nisk
 
 Penzijski staž je ukupno vreme tokom kog su za tebe uplaćivani doprinosi za penzijsko i invalidsko osiguranje. U obračun ulazi decimalno — 35 godina i 6 meseci računa se kao 35,5.
 
-U staž, pored „klasičnog" radnog odnosa, mogu da uđu i periodi kao što su vreme provedeno na bolovanju, porodiljsko odsustvo, ili period za koji je dokupljen (kupljen) staž. Postoji i **beneficirani staž**, gde se za teške i opasne poslove godina rada računa uvećano (npr. 12 ili 14 meseci za 12 odrađenih).
+U staž, pored „klasičnog" radnog odnosa, mogu da uđu i periodi kao što su vreme provedeno na bolovanju, porodiljsko odsustvo, ili period za koji je [dokupljen (kupljen) staž](/blog/kupovina-radnog-staza/). Postoji i **beneficirani staž**, gde se za teške i opasne poslove godina rada računa uvećano (npr. 12 ili 14 meseci za 12 odrađenih).
 
-I ovde važi granica: u obračun ulazi **najviše 45 godina** staža. Ko napuni 45 godina staža, ispunio je uslov za penziju bez obzira na godine života.
+I ovde važi granica: u obračun ulazi **najviše 45 godina** staža. Ko napuni 45 godina staža, ispunio je uslov za penziju bez obzira na godine života. Detaljnije o tome šta sve ulazi u staž — u vodiču [penzijski staž](/blog/penzijski-staz/).
 
 ## 3. Opšti bod: koliko bod vredi u dinarima (2026)
 
@@ -126,7 +126,7 @@ Formula je ista, ali uslovi pod kojima se ide u penziju razlikuju se po vrsti.
 - Žene: **64 godine** života + najmanje 15 godina staža. Granica za žene raste po dva meseca godišnje, sve do 2032, kada će biti izjednačena sa muškarcima (65).
 - Oba pola: **45 godina staža**, bez obzira na godine života.
 
-**Prevremena starosna penzija:** za one koji žele ranije, uz uslov od **40 godina staža i 60 godina života**. Cena je trajno umanjenje: **0,34% za svaki mesec** ranijeg odlaska, najviše do **20,4%**. To umanjenje je doživotno — ne ukida se ni kada napuniš godine za redovnu penziju.
+**Prevremena starosna penzija:** za one koji žele ranije, uz uslov od **40 godina staža i 60 godina života**. Cena je trajno umanjenje: **0,34% za svaki mesec** ranijeg odlaska, najviše do **20,4%**. To umanjenje je doživotno — ne ukida se ni kada napuniš godine za redovnu penziju. Računicu i primere vidi u vodiču [prevremena penzija](/blog/prevremena-penzija/).
 
 > Primer: ko ode u penziju dve godine ranije (24 meseca) ima trajno umanjenje od 24 × 0,34% = **8,16%**. Penzija od 67.000 dinara tako pada na oko 61.500 dinara — zauvek.
 
@@ -140,7 +140,7 @@ Detaljne uslove za odlazak u penziju — po polu i godini — razložili smo u p
 
 Bez obzira na to šta kaže formula, penzija ne može biti niža od zakonom zajemčenog minimuma. U 2026. **najniža penzija** za kategoriju zaposlenih i samostalnih delatnosti iznosi **31.092 dinara**, a za poljoprivrednike **24.443 dinara**. Radi poređenja, **prosečna penzija** u januaru 2026. bila je oko **56.843 dinara**.
 
-Postoji i gornje ograničenje, koje proističe iz već pomenutog limita ličnog koeficijenta (3,8) i maksimalnog staža (45 godina).
+Postoji i gornje ograničenje, koje proističe iz već pomenutog limita ličnog koeficijenta (3,8) i maksimalnog staža (45 godina). Detaljnije: [najniža i najviša penzija u Srbiji](/blog/najniza-i-najvisa-penzija/).
 
 ## Kako da proveriš svoj staž i izračunaš penziju
 
