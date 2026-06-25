@@ -2,6 +2,8 @@
 import { getCollection, render } from 'astro:content';
 import { Image, getImage } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { categoryHref } from '../../utils/categories';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -15,10 +17,30 @@ const { post } = Astro.props;
 const { Content, headings, remarkPluginFrontmatter } = await render(post);
 const d = post.data;
 
+// Related posts: prefer same category (+2) and shared tags (+1 each), newest first.
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const related = allPosts
+  .filter((p) => p.id !== post.id)
+  .map((p) => ({
+    p,
+    score:
+      (p.data.category === d.category ? 2 : 0) +
+      (p.data.tags ?? []).filter((t) => (d.tags ?? []).includes(t)).length,
+  }))
+  .sort((a, b) => b.score - a.score || b.p.data.pubDate.valueOf() - a.p.data.pubDate.valueOf())
+  .slice(0, 3)
+  .map((x) => x.p);
+
 const dateStr = d.pubDate.toLocaleDateString('sr-RS', {
   year: 'numeric', month: 'long', day: 'numeric',
 });
 const url = new URL(`/blog/${post.id}/`, Astro.site).href;
+
+// SERP title: append the brand only when the base title stays within ~60 chars
+// after the " — Investiraj Pametno" suffix (21 chars). Longer titles keep the
+// keyword-focused base alone to avoid Google truncating them.
+const baseTitle = d.seoTitle ?? d.title;
+const pageTitle = baseTitle.length <= 39 ? `${baseTitle} — Investiraj Pametno` : baseTitle;
 
 // Compute an absolute URL for the hero image so og:image and Article.image resolve fully.
 let heroUrl: string | undefined;
@@ -38,7 +60,11 @@ const articleSchema = {
   ...(heroUrl ? { image: [heroUrl] } : {}),
   datePublished: d.pubDate.toISOString(),
   dateModified: (d.updatedDate ?? d.pubDate).toISOString(),
-  author: { '@type': 'Organization', name: 'Investiraj Pametno', url: Astro.site?.href },
+  author: {
+    '@type': 'Person',
+    name: 'Miloš',
+    url: 'https://investirajpametno.rs/o-nama/',
+  },
   publisher: {
     '@type': 'Organization',
     name: 'Investiraj Pametno',
@@ -61,8 +87,9 @@ const breadcrumb = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Početna', item: Astro.site?.href },
-    { '@type': 'ListItem', position: 2, name: 'Blog', item: new URL('/blog', Astro.site).href },
-    { '@type': 'ListItem', position: 3, name: d.title, item: url },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: new URL('/blog/', Astro.site).href },
+    { '@type': 'ListItem', position: 3, name: d.category, item: new URL(categoryHref(d.category), Astro.site).href },
+    { '@type': 'ListItem', position: 4, name: d.title, item: url },
   ],
 };
 
@@ -109,7 +136,7 @@ const schemas = [
 ];
 ---
 <BaseLayout
-  title={`${d.seoTitle ?? d.title} — Investiraj Pametno`}
+  title={pageTitle}
   description={d.description}
   type="article"
   image={heroUrl}
@@ -123,12 +150,13 @@ const schemas = [
         <nav class="crumbs" aria-label="Putanja">
           <a href="/">Početna</a><span aria-hidden="true">/</span>
           <a href="/blog/">Blog</a><span aria-hidden="true">/</span>
-          <span aria-current="page">{d.category}</span>
+          <a href={categoryHref(d.category)}>{d.category}</a>
         </nav>
         <p class="label">{d.category}</p>
         <h1>{d.title}</h1>
         <p class="lede">{d.description}</p>
         <div class="byline">
+          <span class="byline-author">Miloš</span>
           <time datetime={d.pubDate.toISOString()}>{dateStr}</time>
           {d.updatedDate && <span>· ažurirano</span>}
         </div>
@@ -163,6 +191,24 @@ const schemas = [
               <p>{item.a}</p>
             </details>
           ))}
+        </section>
+      )}
+
+      {related.length > 0 && (
+        <section class="related" aria-labelledby="related-title">
+          <h2 id="related-title">Pročitaj još</h2>
+          <div class="related-grid">
+            {related.map((p) => (
+              <ArticleCard
+                href={`/blog/${p.id}/`}
+                title={p.data.title}
+                description={p.data.description}
+                category={p.data.category}
+                pubDate={p.data.pubDate}
+                headingLevel={3}
+              />
+            ))}
+          </div>
         </section>
       )}
 
@@ -225,6 +271,11 @@ const schemas = [
   .faq-item[open] summary::after { content: '−'; }
   .faq-item summary:hover { color: var(--emerald-text); }
   .faq-item p { padding: 0 1.2rem 1.2rem; color: var(--text-on-light-dim); line-height: 1.65; }
+
+  .related { margin-bottom: var(--space-xl); }
+  .related h2 { font-size: var(--step-2); margin-bottom: 1.2rem; }
+  .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+  @media (max-width: 760px) { .related-grid { grid-template-columns: 1fr; } }
 
   .cta-box {
     background: var(--paper-soft); border: 1px solid var(--paper-line);

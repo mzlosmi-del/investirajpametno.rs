@@ -1,7 +1,7 @@
 ---
 title: "Kako napraviti budžet za 30 minuta: ako ne znaš kuda ti odlazi plata, plata odlazi drugima"
 seoTitle: "Kako napraviti kućni budžet (vodič)"
-description: "Bez budžeta nemaš plan, imaš samo nadu. Evo kako da za 30 minuta napraviš kućni budžet koji stvarno radi — pravilo 50/30/20, konkretni koraci i najčešće greške. Korak po korak, na dinar i evro."
+description: "Kako da za 30 minuta napraviš kućni budžet koji stvarno radi — pravilo 50/30/20, konkretni koraci i najčešće greške. Bez budžeta imaš samo nadu."
 pubDate: 2026-01-10
 updatedDate: 2026-06-01
 category: "Štednja"

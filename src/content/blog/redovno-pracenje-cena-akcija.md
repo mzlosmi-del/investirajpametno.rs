@@ -1,7 +1,7 @@
 ---
 title: "Prestani da buljiš u cene akcija svaki dan (uništavaš sam sebe)"
 seoTitle: "Koliko često gledati cene akcija?"
-description: "Što češće gledaš koliko ti vredi portfolio, to ćeš lošije investirati. Zašto je opsesivno praćenje cena neprijatelj dugoročnog investitora, kako te psihologija gura u greške i kako da se odučiš od toga."
+description: "Što češće gledaš koliko vredi portfolio, to lošije investiraš. Zašto je opsesivno praćenje cena akcija neprijatelj dugoročnog investitora — i kako da prestaneš."
 pubDate: 2025-11-25
 updatedDate: 2026-06-14
 category: "Investiranje"
@@ -39,6 +39,18 @@ Ljudi osećaju bol gubitka jače nego radost dobitka. Ta pojava zove se **averzi
 
 I šta se dešava? Posle nekoliko dana gledanja crvenih brojki, paničiš i prodaješ — baš u najgorem trenutku, na dnu. A onda, kad se tržište oporavi (a skoro uvek se oporavi), ti gledaš sa strane i kuneš se da „nikad više". Pa ponoviš isto sledeći put. Tako se [investiranje neprimetno pretvori u kockanje](/blog/investiranje-nije-kockanje/) — ne odlukom, nego nervozom.
 
+## Brojke: što češće gledaš, to više „gubitaka" vidiš
+
+Evo zašto često gledanje radi protiv tebe, čisto matematički. Tržište akcija na kratak rok ide gore-dole gotovo nasumično — ali na dugi rok istorijski raste. Ako pogledaš svoj portfolio jednom dnevno, šanse da vidiš crveno su skoro pola-pola, kao bacanje novčića. Ako pogledaš jednom godišnje, šanse da je godina završila u plusu su istorijski znatno veće.
+
+Drugim rečima: isti portfolio izgleda kao stres-mašina ako ga gledaš svaki dan, a kao mirna linija koja raste ako ga gledaš jednom u nekoliko meseci. Ništa se nije promenilo osim učestalosti gledanja. Ti biraš koju verziju realnosti gledaš — i koliko te ona košta živaca.
+
+## Primer: dva ista ulagača, jedan mnogo mirniji
+
+Marko i Jovana uložili su isti novac, u isti široki ETF, istog dana. Marko proverava nalog svako jutro uz kafu. Jovana je uplatila i namerno isključila aplikaciju, pa gleda jednom u tri meseca.
+
+Kroz prvu godinu tržište je dva puta padalo po desetak posto i oba puta se vraćalo. Marko je oba pada video uživo; drugi put nije izdržao i prodao je „dok ne prođe" — pa propustio oporavak. Jovana ta dva pada nije ni primetila; videla je samo da je na kraju kvartala u plusu. Isti portfolio, ista strategija — razliku je napravila jedino učestalost gledanja i nervoza koju ona donosi.
+
 ## Dobra investicija je dosadna investicija
 
 Najbolji investitori se ne ponašaju kao dileri pred ekranima. Oni kupe nešto dobro i — zaborave na to. Bukvalno. Prođu meseci da ne pogledaju.
@@ -49,6 +61,16 @@ Zašto? Zato što su odluku doneli na osnovu plana, a ne na osnovu raspoloženja
 
 Što ti je portfolio bolje razbacan, to manje paničiš — jer ne zavisiš od sudbine jedne firme. Ako [široko diversifikuješ kroz ETF](/blog/diversifikacija-portfolija/), pad jedne akcije se utopi u rastu drugih i nemaš zašto da buljiš u svaku pojedinačnu cenu. Loš portfolio te tera da ga gledaš; dobar te oslobađa toga.
 
+## Kada JESTE u redu da pogledaš
+
+Ne kažemo da nalog nikad ne treba otvoriti. Ima trenutaka kada provera ima smisla:
+
+- **Jednom godišnje, zbog rebalansa.** Ako ti je plan bio 80% akcije / 20% obveznice, posle rasta se odnos pomeri, pa jednom godišnje vredi da ga vratiš na zacrtano.
+- **Kad ti se život promeni.** Nova plata, dete, kupovina stana — to su razlozi da preispitaš koliko ulažeš, a ne dnevni skok cene.
+- **Kad redovno dokupljuješ.** Ako svakog meseca uplaćuješ isti iznos (tzv. [prosečno ulaganje](/blog/pravo-vreme-za-investiranje/)), tada gledaš da uplatiš — ne da reaguješ na cenu.
+
+Razlika je suštinska: gledaš da bi sledio plan, a ne da bi pod pritiskom doneo novu odluku.
+
 ## Šta da radiš umesto toga
 
 - **Gledaj portfolio retko** — jednom mesečno ili čak ređe je sasvim dovoljno.
@@ -58,3 +80,5 @@ Zašto? Zato što su odluku doneli na osnovu plana, a ne na osnovu raspoloženja
 - **Isključi obaveštenja aplikacije** koja ti svaki dan šalju koliko ti vredi nalog.
 
 Tržište nagrađuje strpljive i kažnjava nervozne. Manje gledanja, više čekanja. To je sve.
+
+> Ovaj tekst je opšta finansijska edukacija, a ne investicioni savet. Svako ulaganje nosi rizik, a odluke donosiš sam, u skladu sa svojom situacijom.

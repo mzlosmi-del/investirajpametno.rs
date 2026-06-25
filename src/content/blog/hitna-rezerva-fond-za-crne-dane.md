@@ -1,7 +1,7 @@
 ---
 title: "Hitna rezerva (fond za crne dane): zaštita koju 90% ljudi nema — i zato propada"
 seoTitle: "Hitna rezerva: fond za crne dane"
-description: "Jedna nepredviđena situacija deli većinu ljudi od dugova. Zato ti treba hitna rezerva — pre investiranja, pre svega. Koliko novca, gde da je držiš i zašto baš u evrima. Korak po korak."
+description: "Hitna rezerva je zaštita koju 90% ljudi nema. Koliko novca ti treba, gde da je držiš i zašto baš u evrima — pre investiranja, pre svega. Korak po korak."
 pubDate: 2025-11-05
 updatedDate: 2026-06-01
 category: "Štednja"

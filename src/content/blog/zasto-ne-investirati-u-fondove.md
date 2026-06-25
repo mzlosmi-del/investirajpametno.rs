@@ -1,7 +1,7 @@
 ---
 title: "Investicioni fondovi vs ETF: spas za početnike ili tihi jedač prinosa?"
 seoTitle: "Investicioni fondovi vs ETF (Srbija)"
-description: "Fondovi obećavaju da neko pametan upravlja tvojim parama. Ali provizije ume da pojedu prinos. Kako fond radi, kada ima smisla, zašto je ETF najčešće jeftiniji izbor i na šta da paziš."
+description: "Investicioni fondovi vs ETF: kako fond radi, kada ima smisla i zašto provizije umeju da pojedu prinos — pa je ETF najčešće jeftiniji izbor."
 pubDate: 2025-12-05
 updatedDate: 2026-06-01
 category: "Investiranje"

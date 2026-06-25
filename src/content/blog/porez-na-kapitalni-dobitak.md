@@ -1,7 +1,7 @@
 ---
 title: "Porez na kapitalni dobitak: kako da prijaviš porez na akcije, ETF i kripto u Srbiji (korak po korak)"
 seoTitle: "Porez na kapitalni dobitak (Srbija): akcije, ETF, kripto"
-description: "Zaradio si na akcijama, ETF-u ili kriptu i sad ne znaš šta s porezom? Kompletan vodič kroz porez na kapitalni dobitak u Srbiji: stopa od 15%, obrazac PPDG-3R, rokovi, izuzeci i prijava preko ePoreza — korak po korak, bez žargona."
+description: "Porez na kapitalni dobitak u Srbiji za akcije, ETF i kripto: stopa od 15%, obrazac PPDG-3R, rokovi, izuzeci i prijava preko ePoreza — korak po korak."
 pubDate: 2026-06-07
 category: "Alati"
 heroImage: "../../assets/blog/porez-kapitalni-dobitak-hero.jpg"

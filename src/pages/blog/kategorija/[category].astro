@@ -1,0 +1,98 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import { categorySlug, categoryHref } from '../../../utils/categories';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const categories = [...new Set(posts.map((p) => p.data.category))];
+  return categories.map((category) => ({
+    params: { category: categorySlug(category) },
+    props: {
+      category,
+      posts: posts
+        .filter((p) => p.data.category === category)
+        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+    },
+  }));
+}
+
+const { category, posts } = Astro.props;
+const url = new URL(categoryHref(category), Astro.site).href;
+const count = posts.length;
+
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Početna', item: 'https://investirajpametno.rs/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://investirajpametno.rs/blog/' },
+    { '@type': 'ListItem', position: 3, name: category, item: url },
+  ],
+};
+
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${category} — tekstovi`,
+  url,
+  inLanguage: 'sr-Latn-RS',
+  hasPart: posts.map((p) => ({
+    '@type': 'BlogPosting',
+    headline: p.data.title,
+    url: `https://investirajpametno.rs/blog/${p.id}/`,
+    datePublished: p.data.pubDate.toISOString(),
+  })),
+};
+---
+<BaseLayout
+  title={`${category}: saveti i vodiči — Investiraj Pametno`}
+  description={`Svi tekstovi iz kategorije „${category}” na jednom mestu — praktični vodiči o ličnim finansijama prilagođeni Srbiji. Ukupno ${count} ${count === 1 ? 'tekst' : 'tekstova'}.`}
+  jsonLd={[collectionSchema, breadcrumb]}
+>
+  <header class="page-head">
+    <div class="container">
+      <nav class="crumbs" aria-label="Putanja">
+        <a href="/">Početna</a><span aria-hidden="true">/</span>
+        <a href="/blog/">Blog</a><span aria-hidden="true">/</span>
+        <span aria-current="page">{category}</span>
+      </nav>
+      <p class="label">Kategorija</p>
+      <h1>{category}</h1>
+      <p class="lede">Svi tekstovi iz kategorije „{category}” na jednom mestu.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid">
+        {posts.map((p) => (
+          <ArticleCard
+            href={`/blog/${p.id}/`}
+            title={p.data.title}
+            description={p.data.description}
+            category={p.data.category}
+            pubDate={p.data.pubDate}
+            headingLevel={2}
+          />
+        ))}
+      </div>
+      <p class="back"><a href="/blog/">← Sve teme</a></p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-head { background: var(--navy-700); color: var(--text-on-dark); padding-block: clamp(2.5rem, 5vw, 4rem); }
+  .page-head h1 { color: #fff; font-size: var(--step-4); margin: 0.4rem 0 0.8rem; }
+  .lede { color: var(--text-on-dark-dim); font-size: var(--step-1); max-width: 54ch; }
+  .crumbs { font-size: 0.85rem; color: var(--text-on-dark-dim); display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem; margin-bottom: 1rem; }
+  .crumbs a { color: var(--text-on-dark-dim); text-decoration: none; }
+  .crumbs a:hover { color: #fff; }
+  .crumbs span[aria-hidden] { opacity: 0.5; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+  .back { margin-top: 2rem; }
+  .back a { color: var(--emerald-text); font-weight: 600; text-decoration: none; }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+</style>

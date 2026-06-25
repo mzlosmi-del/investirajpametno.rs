@@ -1,6 +1,7 @@
 ---
 title: "Investiranje u nekretnine u Srbiji 2026: kompletan vodič (prinos, troškovi, greške)"
-description: "Kompletan vodič za investiranje u nekretnine u Srbiji: kako se računa stvarni prinos od izdavanja, koliki je porez, koje troškove svi zaborave, gde kupiti stan i kako izbeći najskuplje greške. Sve na jednom mestu."
+seoTitle: "Investiranje u nekretnine u Srbiji"
+description: "Vodič za investiranje u nekretnine u Srbiji: kako se računa stvarni prinos od izdavanja, koliki je porez, koje troškove svi zaborave i kako izbeći greške."
 pubDate: 2025-12-15
 updatedDate: 2026-05-27
 category: "Nekretnine"

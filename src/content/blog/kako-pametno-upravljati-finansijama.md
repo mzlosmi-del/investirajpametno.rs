@@ -1,7 +1,7 @@
 ---
 title: "Novac i štednja: kako da konačno počneš da štediš (i ne odustaneš)"
 seoTitle: "Kako početi da štediš (i ne odustaneš)"
-description: "Štednja ne pada s neba — ona je navika. Konkretni, dokazani trikovi kako da svaki mesec odvojiš nešto sa strane, čak i kad ti se čini da nemaš od čega. Plati prvo sebi, automatizuj i kreni od malog."
+description: "Štednja je navika, ne sreća. Konkretni trikovi kako da svaki mesec odvojiš nešto sa strane čak i kad nemaš od čega — plati prvo sebi i automatizuj."
 pubDate: 2025-12-20
 updatedDate: 2026-06-14
 category: "Štednja"
@@ -49,6 +49,10 @@ Zašto to radi? Zato što ne moraš svaki mesec da donosiš odluku i da se bori�
 
 Pogrešno. Poenta na početku nije iznos — poenta je da izgradiš naviku. Bolje je da štediš malo svaki mesec dve godine, nego da čekaš „kad budem imao više" i ne počneš nikad. Iznos ćeš povećavati kako rasteš. Navika je ono što ti treba odmah.
 
+## Mala računica: koliko se to nakupi
+
+Da vidiš zašto „sitnica" nije sitnica. Ako odvajaš samo 5.000 dinara mesečno, to je 60.000 dinara za godinu — a za pet godina, i bez ikakvog ulaganja, preko 300.000 dinara. Dodaj tu i deo povišica i godišnjih bonusa koje takođe skloniš, i suma raste brže nego što očekuješ. A kad taj novac jednom pređe iz štednje u ulaganje, posao preuzima [kamata na kamatu](/blog/zasto-je-investiranje-bitno/). Poenta: ne čekaš da imaš mnogo da bi počeo — počneš sa malim, i baš to malo, redovno, postane mnogo.
+
 ## Napravi budžet da znaš odakle krećeš
 
 Ne možeš da štediš ono što ne vidiš. Pre nego što odrediš koliko odvajaš, treba ti slika gde ti novac odlazi — a to ti daje [kućni budžet koji napraviš za pola sata](/blog/novac-i-budzet/).
@@ -64,6 +68,16 @@ Otvori izvod sa računa za prošli mesec i budi brutalno iskren:
 - Koliko sitnih kupovina koje sutradan i ne pamtiš?
 
 Nisu problem velike kupovine — njih retko praviš. Problem su one male, svakodnevne, koje se skupljaju. Tu je tvoja štednja, samo curi.
+
+## Pravilo 24 sata protiv impulsivne kupovine
+
+Jednostavan trik protiv curenja: za svaku nepotrebnu kupovinu iznad nekog iznosa (recimo 3.000 dinara) sačekaj 24 sata pre nego što platiš. Ako ti se sutradan i dalje čini pametno — kupi. U većini slučajeva želja prođe, a pare ostanu kod tebe. To malo trenja između „hoću" i „kupujem" sačuva više novca nego bilo koja tabela. Isti princip važi i za rasprodaje: popust nije ušteda ako ti stvar ionako nije trebala.
+
+## Tri izgovora koja te drže u mestu
+
+- **„Štedeću kad budem više zarađivao."** Neistina koju priča i onaj sa malom i onaj sa velikom platom — troškovi rastu zajedno sa primanjima, pa uvek „nema viška". Navika odlučuje, ne plata.
+- **„Nema svrhe od male štednje."** Ima, i to dvostruku: gradi naviku i gradi rezervu. Oba ti trebaju pre nego što iznos uopšte postane velik.
+- **„Imam vremena, štedeću kasnije."** Najskuplji izgovor, jer ti oduzima jedino što ne možeš da vratiš — vreme. Što kasnije počneš, to više moraš da uplaćuješ za isti rezultat.
 
 ## Čemu služi to što uštediš
 

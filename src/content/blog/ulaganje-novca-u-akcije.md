@@ -1,7 +1,7 @@
 ---
 title: "Ulaganje novca u akcije: kako iz Srbije da kupiš svetske kompanije (korak po korak)"
 seoTitle: "Kako kupiti akcije iz Srbije — vodič"
-description: "Kako da iz Srbije počneš da ulažeš u strane akcije i ETF-ove: izbor brokera, otvaranje naloga, prve uplate, porez na kapitalni dobitak i greške koje početnici prave. Vodič korak po korak, bez žargona."
+description: "Kako da iz Srbije počneš da ulažeš u strane akcije i ETF-ove: izbor brokera, otvaranje naloga, prve uplate, porez i greške koje početnici prave."
 pubDate: 2025-12-28
 updatedDate: 2026-06-01
 category: "Investiranje"

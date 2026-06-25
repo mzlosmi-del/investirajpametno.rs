@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import { categoryHref } from '../../utils/categories';
 
 const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
@@ -48,9 +49,9 @@ const blogBreadcrumb = {
         Biraj temu i kreni da čitaš.
       </p>
       {categories.length > 1 && (
-        <div class="cats">
-          {categories.map((c) => <span class="cat">{c}</span>)}
-        </div>
+        <nav class="cats" aria-label="Teme">
+          {categories.map((c) => <a class="cat" href={categoryHref(c)}>{c}</a>)}
+        </nav>
       )}
     </div>
   </header>
@@ -85,7 +86,9 @@ const blogBreadcrumb = {
   .cat {
     font-size: 0.8rem; font-weight: 600; padding: 0.35em 0.9em; border-radius: 999px;
     border: 1px solid var(--navy-line); color: var(--text-on-dark-dim);
+    text-decoration: none; transition: color 0.2s var(--ease), border-color 0.2s var(--ease), background 0.2s var(--ease);
   }
+  .cat:hover { color: #fff; border-color: var(--emerald-on-dark); background: rgba(255,255,255,0.06); }
   .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
   .empty { color: var(--text-on-light-dim); font-size: var(--step-1); }
   @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }

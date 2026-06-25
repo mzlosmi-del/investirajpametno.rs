@@ -1,7 +1,7 @@
 ---
 title: "Gde uložiti 1.000 evra: evo šta da radiš (i šta NE) po redosledu koji ima smisla"
 seoTitle: "Gde uložiti 1.000 evra — vodič"
-description: "Imaš 1.000 evra sa strane? Hiljadu evra nije malo ni puno — ali pravilno raspoređeno, to je početak. Konkretni koraci gde da uložiš prvih 1.000 evra, šta da izbegavaš i kojim redosledom."
+description: "Imaš 1.000 evra sa strane? Konkretni koraci gde da uložiš prvih hiljadu evra, šta da izbegavaš i kojim redosledom — bez praznih obećanja."
 pubDate: 2025-11-20
 updatedDate: 2026-06-01
 category: "Investiranje"
@@ -76,11 +76,30 @@ Ako su dugovi i rezerva rešeni, sa 1.000 evra najpametnije je:
 2. **Kupi širok ETF** koji prati celo tržište. Jednim potezom razbacuješ rizik na hiljade firmi. Ako se dvoumiš između fonda i ETF-a, pogledaj [zašto provizije fondova često pojedu prinos](/blog/zasto-ne-investirati-u-fondove/).
 3. **Nastavi da dodaješ redovno.** Tih 1.000 evra nije kraj — to je prvi ulog. Mnogo je važnije da nastaviš da uplaćuješ svaki mesec nego koliki ti je bio prvi iznos.
 
+## Primer: kako bi to izgledalo u praksi
+
+Recimo da nemaš skupe dugove i da već imaš malu rezervu. Tih 1.000 evra bi onda moglo da izgleda ovako:
+
+1. Otvoriš nalog kod regulisanog brokera (verifikacija traje par dana).
+2. Uplatiš novac i kupiš jedan širok ETF (na primer fond koji prati svetsko tržište akcija).
+3. Ne pokušavaš da pogodiš trenutak — uložiš sada, jer ti je horizont dug.
+4. Sledećeg meseca dodaš još koliko možeš, makar 50–100 evra.
+
+Bitno: ne moraš da biraš deset različitih stvari. Jedan širok ETF je sasvim dovoljan početak; komplikovanje na startu šteti više nego što pomaže.
+
+## Pazi na provizije kod malih iznosa
+
+Kod malog uloga kao što je 1.000 evra, naknade procentualno bole više nego kod velikih suma. Ako te svaka kupovina košta fiksnih nekoliko evra, a uplaćuješ sitne iznose, taj trošak ti pojede deo prinosa. Zato biraj brokera sa niskim ili nultim provizijama na ETF-ove i, ako je moguće, kupuj ređe i u malo većim ratama umesto svakog dana po malo. Obrati pažnju i na trošak konverzije dinara u evro ili dolar — i to je naknada koja se vremenom skupi.
+
 ## A ako ne želim u akcije?
 
 Legitimno pitanje. Ako ti je horizont kratak (novac ti treba za godinu-dve), akcije nisu mesto za njega — tu je bolja sigurna, dostupna štednja. Ako razmišljaš šire o tome gde uopšte da staviš pare, [poređenje akcija, nekretnina i štednje je u zasebnom tekstu](/blog/akcije-nekretnine-ili-stednja/). A ako želiš pregled svih opcija na jednom mestu, tu je vodič [gde uložiti novac u Srbiji](/blog/gde-uloziti-novac/). Sa 1.000 evra, doduše, nekretnine otpadaju same od sebe — ostaje ti štednja za kratak rok ili ETF za dug.
 
 > **Napomena:** ovaj tekst je informativnog karaktera i ne predstavlja investicioni savet. Procenu sopstvene situacije i rizika donosiš sam.
+
+## Šta posle prvih 1.000 evra
+
+Kad ti prvih 1.000 evra pređe u rutinu, sledeći cilj nije nova „vruća" ideja — nego veći, redovan ulog i puna [hitna rezerva](/blog/hitna-rezerva-fond-za-crne-dane/) ako je još nemaš. Strategija ostaje ista bez obzira na sumu: širok, jeftin, dugoročan. Menja se samo iznos, ne i plan.
 
 ## Najvažnija lekcija
 

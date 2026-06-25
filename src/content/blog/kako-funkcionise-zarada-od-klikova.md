@@ -1,10 +1,10 @@
 ---
 title: "Kako funkcioniše zarada od klikova: šta je realno, a šta prazna priča"
 seoTitle: "Kako funkcioniše zarada od klikova"
-description: "Kako stvarno funkcioniše zarada od klikova — od PTC sajtova koji plaćaju stotinke do legalnog zarađivanja od reklama na sopstvenom sadržaju. Realna računica, zamke i gde se trud zaista isplati."
+description: "Kako stvarno funkcioniše zarada od klikova — od PTC sajtova koji plaćaju stotinke do legalne zarade od reklama na svom sadržaju. Realna računica i zamke."
 pubDate: 2026-06-08
 updatedDate: 2026-06-08
-category: "Lični finansije"
+category: "Lične finansije"
 heroImage: "../../assets/blog/zarada-od-klikova-hero.jpg"
 heroImageAlt: "Kako funkcioniše zarada od klikova — šta je realno, a šta prazna priča"
 featured: false

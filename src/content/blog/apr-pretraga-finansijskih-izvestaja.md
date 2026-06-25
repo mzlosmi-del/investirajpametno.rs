@@ -1,7 +1,7 @@
 ---
 title: "APR pretraga finansijskih izveštaja: kako da proveriš svaku domaću firmu (korak po korak)"
 seoTitle: "APR pretraga finansijskih izveštaja firme"
-description: "Kako da na APR-u besplatno proveriš finansijski izveštaj bilo koje firme u Srbiji — po nazivu, matičnom broju ili PIB-u. Vodič korak po korak: gde da tražiš, šta da gledaš i koje su crvene zastavice pre nego što uložiš ili potpišeš ugovor."
+description: "Kako da na APR-u besplatno proveriš finansijski izveštaj bilo koje firme u Srbiji — po nazivu, matičnom broju ili PIB-u. Vodič korak po korak."
 pubDate: 2025-11-15
 updatedDate: 2026-06-01
 category: "Alati"

@@ -1,10 +1,10 @@
 ---
 title: "Biznis prodaje majica preko interneta: koliko se realno zaradi (i šta o novcu treba da znaš)"
 seoTitle: "Biznis prodaje majica preko interneta"
-description: "Kako pokrenuti biznis prodaje majica preko interneta i koliko se realno zaradi. Print-on-demand model, troškovi, marža po majici, registracija i porez u Srbiji — trezveno, sa brojkama, bez prodaje sna."
+description: "Kako pokrenuti biznis prodaje majica preko interneta i koliko se realno zaradi: print-on-demand, troškovi, marža po majici, registracija i porez u Srbiji."
 pubDate: 2026-06-08
 updatedDate: 2026-06-08
-category: "Lični finansije"
+category: "Lične finansije"
 heroImage: "../../assets/blog/prodaja-majica-hero.jpg"
 heroImageAlt: "Biznis prodaje majica preko interneta — koliko se realno zaradi po majici"
 featured: false

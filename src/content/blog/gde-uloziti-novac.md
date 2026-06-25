@@ -1,7 +1,7 @@
 ---
 title: "Gde uložiti novac u Srbiji: sve opcije na jednom mestu (2026)"
 seoTitle: "Gde uložiti novac u Srbiji — vodič"
-description: "Gde uložiti novac u Srbiji da radi za tebe — štednja, državne obveznice, akcije i ETF, penzioni fondovi, nekretnine i zlato. Prednosti, rizici i kome šta odgovara, bez magije i bez praznih obećanja."
+description: "Gde uložiti novac u Srbiji da radi za tebe — štednja, obveznice, akcije i ETF, penzioni fondovi, nekretnine i zlato. Prednosti, rizici i kome šta odgovara."
 pubDate: 2026-06-08
 updatedDate: 2026-06-08
 category: "Investiranje"

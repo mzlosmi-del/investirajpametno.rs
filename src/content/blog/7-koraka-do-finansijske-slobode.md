@@ -1,7 +1,7 @@
 ---
 title: "7 koraka do finansijske slobode (verzija za nas, ne za Ameriku)"
 seoTitle: "7 koraka do finansijske slobode"
-description: "Sedam jasnih koraka koji te vode od života od plate do plate do prave finansijske slobode — prilagođeno dinaru, evrima i kreditima kakve stvarno imamo u Srbiji. Redom, bez preskakanja."
+description: "Sedam jasnih koraka koji te vode od života od plate do plate do prave finansijske slobode — prilagođeno dinaru, evrima i kreditima kakve imamo u Srbiji."
 pubDate: 2026-01-15
 updatedDate: 2026-06-14
 category: "Plan"

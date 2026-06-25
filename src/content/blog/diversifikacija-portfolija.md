@@ -1,7 +1,7 @@
 ---
 title: "Diversifikacija portfolija: ne stavljaj sva jaja u jednu korpu (i zašto je ETF najlakši način)"
 seoTitle: "Diversifikacija portfolija — vodič"
-description: "Najveći rizik nije pad tržišta — nego to što si sve pare uložio u jednu stvar. Šta je diversifikacija, kako da razbaciš rizik, koliko je dovoljno i zašto je širok ETF najlakši način da to uradiš."
+description: "Šta je diversifikacija portfolija, kako da razbaciš rizik, koliko je dovoljno i zašto je širok ETF najlakši način da ne staviš sva jaja u jednu korpu."
 pubDate: 2025-12-10
 updatedDate: 2026-06-01
 category: "Investiranje"

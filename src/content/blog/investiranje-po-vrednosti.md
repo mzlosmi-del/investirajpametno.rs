@@ -1,7 +1,7 @@
 ---
 title: "Investiranje po vrednosti: kupuj firme, ne kockaj se grafikonima"
 seoTitle: "Investiranje po vrednosti (value investing)"
-description: "Value investing objašnjeno bez fensi žargona. Kako da kupuješ dobre kompanije po poštenoj ceni umesto da se kockaš na kratkoročnim skokovima — strategija koja je obogatila Bafeta, i šta od nje realno možeš da preuzmeš."
+description: "Value investing bez žargona: kako da kupuješ dobre kompanije po poštenoj ceni umesto kockanja na kratkoročnim skokovima — strategija po kojoj se vodi Bafet."
 pubDate: 2026-01-05
 updatedDate: 2026-06-14
 category: "Investiranje"
@@ -48,6 +48,14 @@ Kad kupiš akciju, ti ne kupuješ slovo na ekranu — ti postaješ suvlasnik pra
 Tvorac ovog pristupa, Bendžamin Grejem (Bafetov profesor), uveo je pojam **margine sigurnosti**. Ideja je prosta: nemoj da kupuješ firmu po tačno onoliko koliko misliš da vredi, nego znatno jeftinije.
 
 Zašto? Zato što grešiš. Svi grešimo u proceni. Ako misliš da firma vredi 100, a kupiš je za 70, imaš prostor da pogrešiš u proceni a da i dalje prođeš dobro. Ta razlika između cene i vrednosti je tvoj zaštitni jastuk — isto kao [hitna rezerva](/blog/hitna-rezerva-fond-za-crne-dane/) u ličnim finansijama.
+
+## Kako uopšte znaš šta firma „vredi"
+
+Procena prave vrednosti firme je veština za sebe, ali ideja je pristupačna. Value investitori gledaju da li firma stvarno zarađuje i koliko plaćaju tu zaradu — najpoznatiji brzi pokazatelj je odnos cene i dobiti (**P/E**): koliko evra plaćaš za svaki evro godišnje zarade firme. Visok P/E znači da tržište već očekuje velik rast (i da plaćaš skuplje); nizak može značiti priliku — ili da nešto nije u redu. Gleda se i zaduženost, stabilnost prihoda kroz godine i da li firma ima trajnu prednost nad konkurencijom. Nijedan broj sam po sebi ne odlučuje; tek zajedno daju sliku da li je cena poštena. Ko želi da kopa dublje po domaćim firmama, javne finansijske izveštaje može da [proveri preko APR-a](/blog/apr-pretraga-finansijskih-izvestaja/).
+
+## Zamka jeftinog: nije sve što je jeftino i povoljno
+
+Pažnja na čestu grešku: jeftina akcija nije automatski dobra kupovina. Ponekad je cena niska s razlogom — biznis propada, gubi kupce ili tone u dugove. To se zove „zamka vrednosti" (*value trap*): izgleda povoljno, a zapravo je jeftino jer i jeste sve lošije. Zato value pristup nije „kupi najjeftinije", nego „kupi dobru firmu koja je trenutno potcenjena". Razlika između potcenjenog i propadajućeg je cela poenta — i baš zato je ovo teško raditi sa pojedinačnim firmama, pa se većina vraća na širok ETF. Ako ti se neka akcija čini „prejeftina da bude istina", najčešće i jeste — proveri zašto pre nego što kupiš.
 
 ## Strpljenje je tajni sastojak
 

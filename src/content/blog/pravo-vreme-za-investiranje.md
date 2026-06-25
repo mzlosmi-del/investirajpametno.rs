@@ -1,7 +1,7 @@
 ---
 title: "Pravo vreme za investiranje: prestani da čekaš, jer ga nema"
 seoTitle: "Pravo vreme za investiranje (kada početi)"
-description: "Svi čekaju „pravi trenutak” da počnu da investiraju. Taj trenutak ne postoji. Zašto je vreme na tržištu važnije od pogađanja tržišta, šta je prosečno ulaganje (DCA) i kako da kreneš već ovog meseca."
+description: "Pravo vreme za investiranje ne postoji — i zato prestani da čekaš. Zašto je vreme na tržištu važnije od pogađanja, šta je DCA i kako da kreneš ovog meseca."
 pubDate: 2025-11-30
 updatedDate: 2026-06-14
 category: "Investiranje"
@@ -47,11 +47,23 @@ Evo zašto je čekanje skupo: najveći skokovi na tržištu dešavaju se u svega
 
 A da bi uhvatio te dane, moraš da budeš uložen **pre** nego što se dese. Niko ne zvoni na zvono i ne najavljuje ih. Zato strpljivi, koji su stalno na tržištu, pobeđuju nervozne koji ulaze i izlaze.
 
+## Najčešća greška: izlazak pa povratak
+
+Postoji blizanac greške čekanja: uđeš, tržište padne, izađeš u panici „dok ne prođe", pa se vratiš tek kad opet poraste — što znači da si prodao jeftino i kupio skupo, savršeno naopako. [Opsesivno praćenje cena](/blog/redovno-pracenje-cena-akcija/) hrani upravo tu grešku. Pravo vreme za ulazak vredi samo ako ostaneš uložen; inače si jedno pogađanje samo zamenio drugim.
+
 ## Rešenje: ulaži redovno, ma šta tržište radilo
 
 Umesto da pogađaš trenutak, radi ovo: **ulaži isti iznos svakog meseca, bez obzira da li tržište raste ili pada.**
 
 Kad je skupo, kupiš malo manje. Kad je jeftino, kupiš malo više. Prosečno ispadne pošteno, a ti se oslobađaš stresa pogađanja. Ova strategija (zove se prosečno ulaganje, na engleskom *dollar-cost averaging*) je dosadna — i upravo zato radi. Najlakše je sprovodiš kroz [širok ETF koji ti razbacuje rizik](/blog/diversifikacija-portfolija/), uplatom svakog meseca.
+
+## Zašto baš tebi prosečno ulaganje odgovara
+
+Prosečno ulaganje je posebno zgodno za nekog ko tek počinje i ko prima platu mesečno. Ti ionako dobijaš novac u ratama (svaka plata), pa je prirodno i da ulažeš u ratama. Ne moraš da imaš veliku sumu, ne moraš da pratiš vesti i ne moraš ništa da pogađaš — samo postaviš da svakog meseca ode isti iznos, isto kao [trajni nalog za štednju](/blog/kako-pametno-upravljati-finansijama/). Disciplina pobeđuje pamet kad je reč o tržištu, a prosečno ulaganje tu disciplinu ugrađuje u sistem da ne zavisi od tvog raspoloženja.
+
+## „Sve odjednom" ili postepeno?
+
+Šta ako već imaš veću sumu na gomili — uložiti je odjednom ili razvući kroz vreme? Istorijski, ulaganje cele sume odjednom češće prolazi bolje, prosto zato što novac ranije počne da radi. Ali to je psihološki teško: ako tržište padne nedelju dana posle tvoje velike uplate, mnogi ne izdrže. Zato je sasvim legitimno i da veću sumu razvučeš na nekoliko meseci (na primer u tri do šest rata). Izgubiš malo statističke prednosti, ali dobiješ mir i manju šansu da odustaneš na prvom padu. Oba pristupa su dobra; jedino loše je da od straha ne uradiš ništa.
 
 ## Prvo osnove, pa tržište
 
@@ -70,3 +82,5 @@ Postoji samo jedan zaista loš trenutak da počneš da investiraš: **nikad.**
 Sve ostalo — i kad je visoko, i kad je nisko, i kad je nesigurno — bolje je od čekanja. Jer dok ti čekaš savršen trenutak, vreme, tvoj najveći saveznik, prolazi i ne vraća se.
 
 Najbolji trenutak za sadnju drveta bio je pre dvadeset godina. Drugi najbolji je danas. Isto važi i za pare.
+
+> Napomena: ovo je opšta finansijska edukacija, a ne investicioni savet. Istorijski obrasci ne garantuju buduće rezultate; svako ulaganje nosi rizik gubitka, a odluke donosiš sam.

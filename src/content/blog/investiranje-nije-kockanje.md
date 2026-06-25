@@ -1,7 +1,7 @@
 ---
 title: "Investiranje nije kockanje — ali način na koji ti to radiš možda jeste"
 seoTitle: "Da li je investiranje kockanje?"
-description: "Mnogi misle da je berza isto što i kladionica. Nije — ali lako je da je u to pretvoriš. Gde je granica između investiranja i kockanja, ček-lista po kojoj ćeš prepoznati na kojoj si strani i kako da pređeš na pravu."
+description: "Berza nije kladionica — ali lako je da je u to pretvoriš. Gde je granica između investiranja i kockanja i ček-lista po kojoj ćeš prepoznati na kojoj si strani."
 pubDate: 2025-11-10
 updatedDate: 2026-06-14
 category: "Mindset"

@@ -11,6 +11,9 @@
 /blog/gde-uloziti-1-000-evra-danas/                                 /blog/gde-uloziti-1000-evra/                 301
 /blog/gde-uloziti-1-000-evra/                                       /blog/gde-uloziti-1000-evra/                 301
 
+# Orphaned legacy URL still indexed but with no current page (old newsletter signup) -> strongest evergreen
+/klub-milionera/                                                    /blog/7-koraka-do-finansijske-slobode/       301
+
 # Dropped articles -> closest relevant evergreen replacement
 /blog/stani-odose-milioni-investiraj-i-zaradi-vise/                 /blog/investiranje-nije-kockanje/            301
 /blog/intervju-sa-mentorom-milionera/                               /blog/investiranje-nije-kockanje/            301

@@ -1,7 +1,7 @@
 ---
 title: "Akcije, nekretnine ili štednja: gde da staviš pare i ne pogrešiš"
 seoTitle: "Akcije, nekretnine ili štednja?"
-description: "Velika dilema svakog ko ima nešto ušteđeno. Poredimo akcije, nekretnine i klasičnu štednju — prinos, rizik, likvidnost i ulazni prag — da znaš šta odgovara baš tebi i tvom horizontu."
+description: "Poredimo akcije, nekretnine i klasičnu štednju — prinos, rizik, likvidnost i ulazni prag — da znaš gde da staviš pare i šta odgovara baš tebi."
 pubDate: 2026-01-03
 updatedDate: 2026-06-01
 category: "Investiranje"
